@@ -16,7 +16,7 @@
         // "experimentalDecorators": true,
         "strict": true,
         "declaration": true,
-        "typeRoots": [ "./node_modules/@types", "./types" ]
+        "typeRoots": [ "./node_modules/@types", "./types", "./functions/bundle" ]
     },
   "include": ["src"],
   "exclude": ["node_modules", "src/**/__tests__"]
