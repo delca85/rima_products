@@ -1,5 +1,4 @@
 import gql from 'graphql-tag';
-export { MacroProduct, Query } from '../types/graphql.generated';
 
 const typedefs = gql`
   type MacroProduct {
