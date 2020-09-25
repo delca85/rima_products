@@ -1,11 +1,12 @@
 {
-  "name": "rima-serverless",
+  "name": "rima-products",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "prebuild:server": "cd server/ && yarn install",
     "build:app": "yarn --cwd client/ build",
-    "build:server": "yarn --cwd server/ bundle --modules-folder server/node_modules",
+    "build:server": "yarn --cwd server/ bundle",
     "start:app": "yarn --cwd client/ start",
     "start:server": "yarn --cwd server/ start"
   }
