@@ -6,8 +6,7 @@ const buildApolloClient = () => {
   const cache = new InMemoryCache();
 
   return new ApolloClient({
-    // uri: graphql,
-    uri: "../server/functions/graphql",
+    uri: graphql,
     cache,
   });
 };
