@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Home Home Default 1`] = `
+<div>
+  <span>
+    Under construction...
+  </span>
+</div>
+`;

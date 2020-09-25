@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots SubpartsListHeader Subparts List Header Default 1`] = `
+<th
+  className="header"
+>
+  <td>
+    id
+  </td>
+  <td>
+    name
+  </td>
+  <td>
+    quantity
+  </td>
+  <td>
+    image
+  </td>
+</th>
+`;

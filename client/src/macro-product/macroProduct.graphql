@@ -1,0 +1,13 @@
+query Parts($id: Int!) {
+  part(id: $id) {
+    id
+    name
+    thumb
+    subparts {
+      id
+      name
+      thumb
+      quantity
+    }
+  }
+}

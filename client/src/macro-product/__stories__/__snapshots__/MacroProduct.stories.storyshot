@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots MacroProduct Macro Product Default 1`] = `
+<div
+  className="sc-bdnylx kyIwkg"
+>
+  <h2
+    className="macro-product-name"
+  >
+    rail brake
+  </h2>
+  <img
+    alt="Product with id: 1"
+    src="https://www.rimagroup.com/wp-content/uploads/2019/06/Rail-Brake-TM.png"
+  />
+</div>
+`;
+
+exports[`Storyshots MacroProduct Macro Product No Thumb 1`] = `
+<div
+  className="sc-bdnylx kyIwkg"
+>
+  <h2
+    className="macro-product-name"
+  >
+    rail brake
+  </h2>
+  <img
+    alt="Product with id: 1"
+    src=""
+  />
+</div>
+`;

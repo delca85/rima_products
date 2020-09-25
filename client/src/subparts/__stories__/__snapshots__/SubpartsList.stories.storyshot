@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots SubpartsList Subparts List With Two Elements 1`] = `
+<div
+  className="sc-gtssRu"
+>
+  <div
+    className="sc-bdnylx bcavtJ"
+  >
+    <span
+      className="subpart-id"
+    >
+      2
+    </span>
+    <span
+      className="subpart-name"
+    >
+      screw
+    </span>
+    <span
+      className="subpart-quantity"
+    >
+      50
+    </span>
+    <span
+      className="subpart-img"
+    >
+      <img
+        alt="Subpart with id 2"
+        src="https://www.rifaidate.it/attrezzi/chiodi-e-viti/viti-passo-inglese_O1.jpg"
+      />
+    </span>
+  </div>
+  <div
+    className="sc-bdnylx bcavtJ"
+  >
+    <span
+      className="subpart-id"
+    >
+      3
+    </span>
+    <span
+      className="subpart-name"
+    >
+      screw diece lorem ipsum long
+    </span>
+    <span
+      className="subpart-quantity"
+    >
+      250
+    </span>
+    <span
+      className="subpart-img"
+    >
+      <img
+        alt="Subpart with id 3"
+        src="https://cdn.manomano.com/100-pz-dado-dadi-zincato-mm-4-m4-vite-bullone-esagonale-L-4845234-9124801_1.jpg"
+      />
+    </span>
+  </div>
+</div>
+`;

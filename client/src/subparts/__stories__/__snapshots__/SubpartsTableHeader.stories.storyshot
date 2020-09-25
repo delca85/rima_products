@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots SubpartsTableHeader Subparts Table Header Default 1`] = `
+<tr>
+  <th
+    className="sc-gtssRu faRSZx"
+  >
+    id
+  </th>
+  <th
+    className="sc-gtssRu faRSZx"
+  >
+    name
+  </th>
+  <th
+    className="sc-gtssRu faRSZx"
+  >
+    quantity
+  </th>
+  <th
+    className="sc-gtssRu faRSZx"
+  >
+    image
+  </th>
+</tr>
+`;
+
+exports[`Storyshots SubpartsTableHeader Subparts Table Header No Header 1`] = `<tr />`;

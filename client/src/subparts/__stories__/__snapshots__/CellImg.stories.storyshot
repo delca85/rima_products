@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots CellImg Cell Img Default 1`] = `
+<td
+  className="sc-dlnjPT haWvki"
+>
+  <img
+    alt="FAKE_ALT_TEXT"
+    src="https://www.rifaidate.it/attrezzi/chiodi-e-viti/viti-passo-inglese_O1.jpg"
+  />
+</td>
+`;
+
+exports[`Storyshots CellImg Cell Img No Src 1`] = `
+<td
+  className="sc-dlnjPT haWvki"
+/>
+`;
