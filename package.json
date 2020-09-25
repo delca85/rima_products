@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build:app": "yarn --cwd client/ build",
-    "build:server": "yarn --cwd server/ bundle",
+    "build:server": "yarn --cwd server/ bundle --modules-folder server/node_modules",
     "start:app": "yarn --cwd client/ start",
     "start:server": "yarn --cwd server/ start"
   }
