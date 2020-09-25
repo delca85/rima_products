@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "pretty": true,
+        "module": "commonjs",
+        "sourceMap": true,
+        "target": "es2019",
+        "outDir": "./functions/bundle",
+        "lib": ["ES6"],
+        "resolveJsonModule": true, 
+        "types": ["node"],
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        // "baseUrl": ".",
+        // "emitDecoratorMetadata": true,
+        // "experimentalDecorators": true,
+        "strict": true,
+        "declaration": true
+    },
+  "include": ["src"],
+  "exclude": ["node_modules", "src/**/__tests__"]
+}
