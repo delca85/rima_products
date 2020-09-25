@@ -1,4 +1,3 @@
 [build]
-  base = "server/"
-  command = "yarn bundle"
+  command = "yarn build:server"
   functions = "server/functions"

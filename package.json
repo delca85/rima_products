@@ -2,5 +2,11 @@
   "name": "rima-serverless",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build:app": "yarn --cwd client/ build",
+    "build:server": "yarn --cwd server/ bundle",
+    "start:app": "yarn --cwd client/ start",
+    "start:server": "yarn --cwd server/ start"
+  }
 }
