@@ -21,6 +21,7 @@
     "@babel/preset-typescript": "^7.10.4",
     "@graphql-codegen/cli": "^1.17.8",
     "@graphql-codegen/typescript": "^1.17.9",
+    "@graphql-codegen/typescript-graphql-files-modules": "^1.17.8",
     "@graphql-codegen/typescript-resolvers": "^1.17.9",
     "@types/jest": "^26.0.14",
     "@types/node": "^14.11.2",
