@@ -1,4 +1,4 @@
-import { createLambdaServer } from '../src/server';
+import { createLambdaServer } from './bundle/server';
 
 const server = createLambdaServer();
 
