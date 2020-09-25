@@ -1,0 +1,3 @@
+[build]
+  command = "cd server && yarn bundle"
+  functions = "server/functions"

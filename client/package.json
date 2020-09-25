@@ -32,7 +32,8 @@
     "build-storybook": "build-storybook -s public",
     "tsc": "tsc",
     "tsc:coverage": "type-coverage --detail --project tsconfig.json --ignore-files \"src/**/__tests__/**/*.*\" --ignore-files \"src/**/*.tsx\" --strict",
-    "tsc:coverage:all": "type-coverage --detail --project tsconfig.json --ignore-files \"src/**/__tests__/**/*.*\" --strict"
+    "tsc:coverage:all": "type-coverage --detail --project tsconfig.json --ignore-files \"src/**/__tests__/**/*.*\" --strict",
+    "deploy-netlify": "yarn build && netlify deploy build"
   },
   "eslintConfig": {
     "extends": "react-app"
