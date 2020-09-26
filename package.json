@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "prebuild:server": "yarn install --cwd server/",
-    "prebuild:client": "cd client/ && yarn install",
+    "prebuild:client": "yarn install --cwd client/",
     "build:client": "yarn --cwd client/ build",
     "build:server": "yarn --cwd server/ bundle",
     "start:client": "yarn --cwd client/ start",
