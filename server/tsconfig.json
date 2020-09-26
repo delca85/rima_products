@@ -3,6 +3,8 @@
         "allowJs": true,
         "pretty": true,
         "module": "commonjs",
+        "noImplicitAny": true,
+        "suppressImplicitAnyIndexErrors": true,
         "sourceMap": true,
         "target": "es5",
         "outDir": "./functions/bundle",
@@ -16,7 +18,7 @@
         // "experimentalDecorators": true,
         "strict": true,
         "declaration": true,
-        "typeRoots": [ "./node_modules/@types", "./types", "./functions/bundle", "./functions/bundle/types" ]
+        // "typeRoots": [ "./node_modules/@types", "./types", "./functions/bundle", "./functions/bundle/types" ]
     },
   "include": ["src"],
   "exclude": ["node_modules", "src/**/__tests__"]
