@@ -1,1 +1,0 @@
-{"version":3,"file":"connection.js","sourceRoot":"","sources":["../../../src/sequelize/connection.ts"],"names":[],"mappings":";;;;;AAAA,yCAAsC;AACtC,qEAA6C;AAE7C,MAAM,MAAM,GAAG,mBAAS,CAAC,QAAQ,CAAC,CAAC;AAEnC,MAAM,SAAS,GAAG,IAAI,qBAAS,CAAC,MAAM,EAAE;IACtC,OAAO,EAAE,CAAC,GAAG,GAAG,EAAE,EAAE,CAAC,OAAO,CAAC,GAAG,CAAC,GAAG,CAAC;CACtC,CAAC,CAAC;AAEH,kBAAe,SAAS,CAAC"}
