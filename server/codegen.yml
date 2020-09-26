@@ -1,4 +1,4 @@
-schema: ./src/**/*.graphql
+schema: ./src/**/*.typedefs.ts
 generates: 
     ./src/types/graphql.generated.ts:
         plugins:
