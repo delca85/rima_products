@@ -1,12 +1,10 @@
-schema: ./src/macro-product/macroProduct.typedefs.ts
+schema: ./src/**/*.typedefs.ts
 generates: 
-    ./src/types/macroProduct.typedefs.d.ts:
+    ./src/types/graphql.generated.ts:
         plugins:
             - typescript
             - typescript-resolvers
-            - typescript-graphql-files-modules
         config:
             noSchemaStitching: true
             useIndexSignature: true
-            noExport: true
             contextType: ../context#RimaModelsContext

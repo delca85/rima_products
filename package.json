@@ -10,5 +10,9 @@
     "build:server": "yarn --cwd server/ bundle",
     "start:client": "yarn --cwd client/ start",
     "start:server": "yarn --cwd server/ start"
+  },
+  "dependencies": {
+    "@graphql-codegen/typescript-graphql-files-modules": "^1.17.8",
+    "remove": "^0.1.5"
   }
 }
