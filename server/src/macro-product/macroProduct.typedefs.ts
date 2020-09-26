@@ -1,6 +1,7 @@
+import { DocumentNode } from 'graphql';
 import gql from 'graphql-tag';
 
-const typedefs = gql`
+const typedefs: DocumentNode = gql`
   type MacroProduct {
     id: Int!
     parentPartNo: Int!
