@@ -1,6 +1,6 @@
 import gql from 'graphql-tag';
 
-const typedefs = gql`
+const typeDefs = gql`
   type Part {
     id: Int!
     name: String!
@@ -16,4 +16,4 @@ const typedefs = gql`
   }
 `;
 
-export default typedefs;
+export default typeDefs;

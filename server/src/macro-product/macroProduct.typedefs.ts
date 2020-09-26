@@ -1,6 +1,6 @@
 import gql from 'graphql-tag';
 
-const typedefs = gql`
+const typeDefs = gql`
   type MacroProduct {
     id: Int!
     parentPartNo: Int!
@@ -14,4 +14,4 @@ const typedefs = gql`
   }
 `;
 
-export default typedefs;
+export default typeDefs;
