@@ -1,4 +1,4 @@
-import { GraphQLResolveInfo } from 'graphql';
+import { GraphQLResolveInfo } from 'graphqla';
 import { RimaModelsContext } from '../context';
 type Maybe<T> = T | null;
 type Exact<T extends { [key: string]: unknown }> = { [K in keyof T]: T[K] };
