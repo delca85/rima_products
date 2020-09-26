@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "allowJs": trues,
+        "allowJs": true,
         "pretty": true,
         "module": "commonjs",
         "sourceMap": true,

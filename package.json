@@ -4,7 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "prebuild:server": "yarn install --cwd server/",
     "prebuild:client": "yarn install --cwd client/",
     "build:client": "yarn --cwd client/ build",
     "build:server": "yarn --cwd server/ bundle",
