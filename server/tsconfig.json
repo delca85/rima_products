@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "allowJs": true,
+        "allowJs": trues,
         "pretty": true,
         "module": "commonjs",
         "sourceMap": true,
@@ -14,7 +14,7 @@
         // "baseUrl": ".",
         // "emitDecoratorMetadata": true,
         // "experimentalDecorators": true,
-        // "strict": true,
+        "strict": true,
         "declaration": true,
         "typeRoots": [ "./node_modules/@types", "./types", "./functions/bundle" ]
     },
