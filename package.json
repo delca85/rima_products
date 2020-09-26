@@ -4,15 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "prebuild:server": "yarn install --cwd server/ && cd server/ && yarn tsc --version",
-    "prebuild:client": "yarn install --cwd client/",
+    "prebuild:server": "yarn --cwd server/ install",
+    "prebuild:client": "yarn --cwd client/ install",
     "build:client": "yarn --cwd client/ build",
     "build:server": "yarn --cwd server/ bundle",
     "start:client": "yarn --cwd client/ start",
     "start:server": "yarn --cwd server/ start"
-  },
-  "dependencies": {
-    "@graphql-codegen/typescript-graphql-files-modules": "^1.17.8",
-    "remove": "^0.1.5"
   }
 }
