@@ -1,14 +1,57 @@
 {
-  "name": "rima-products",
+  "name": "rima-graphql-server",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "rima graphql server",
+  "main": "index.ts",
+  "author": "Bianca Del Carretto",
   "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.18.0",
+    "apollo-server-lambda": "^2.18.0",
+    "dataloader": "^2.0.0",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.3.0",
+    "graphql-tag": "^2.11.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5",
+    "ts-node": "^9.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-typescript": "^7.10.4",
+    "@graphql-codegen/cli": "^1.17.8",
+    "@graphql-codegen/typescript": "^1.17.9",
+    "@graphql-codegen/typescript-graphql-files-modules": "^1.17.8",
+    "@graphql-codegen/typescript-resolvers": "^1.17.9",
+    "@types/jest": "^26.0.14",
+    "@types/node": "^14.11.2",
+    "@types/validator": "^13.1.0",
+    "babel-jest": "^26.3.0",
+    "cpx": "^1.5.0",
+    "jest": "^26.4.2",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.1.2",
+    "sequelize-cli": "^6.2.0",
+    "ts-node-dev": "^1.0.0-pre.63",
+    "typescript": "^4.0.3"
+  },
   "scripts": {
-    "prebuild:server": "cd server/ && yarn install",
-    "prebuild:app": "cd client/ && yarn install",
-    "build:app": "yarn --cwd client/ build",
-    "build:server": "yarn --cwd server/ bundle",
-    "start:app": "yarn --cwd client/ start",
-    "start:server": "yarn --cwd server/ start"
+    "start": "nodemon --exec ts-node src/index.ts",
+    "watch": "ts-node-dev --respawn index.dev.ts",
+    "generate": "graphql-codegen",
+    "test": "jest",
+    "test:w": "yarn test --watch",
+    "test:c": "yarn test --coverage",
+    "test:w:c": "yarn test --watch --coverage",
+    "bundle": "tsc"
+  },
+  "jest": {
+    "testMatch": [
+      "**/__tests__/**/*.test.ts?(x)",
+      "!**/*.mocks.{js,ts}"
+    ],
+    "setupFiles": [
+      "./setup-tests.ts"
+    ]
   }
 }
