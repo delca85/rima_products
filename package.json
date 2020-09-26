@@ -9,6 +9,7 @@
     "build:client": "yarn --cwd client/ build",
     "build:server": "yarn --cwd server/ bundle",
     "start:client": "yarn --cwd client/ start",
-    "start:server": "yarn --cwd server/ start"
+    "start:server": "yarn --cwd server/ start",
+    "build": "yarn build:client && yarn build:server"
   }
 }
