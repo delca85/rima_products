@@ -43,7 +43,6 @@
     "test:w": "yarn test --watch",
     "test:c": "yarn test --coverage",
     "test:w:c": "yarn test --watch --coverage",
-    "prebundle": "yarn generate",
     "bundle": "tsc"
   },
   "jest": {
