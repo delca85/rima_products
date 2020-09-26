@@ -8,4 +8,5 @@ generates:
         config:
             noSchemaStitching: true
             useIndexSignature: true
+            noExport: true
             contextType: ../context#RimaModelsContext

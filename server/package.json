@@ -44,7 +44,7 @@
     "test:w": "yarn test --watch",
     "test:c": "yarn test --coverage",
     "test:w:c": "yarn test --watch --coverage",
-    "bundle": "npm ls jest"
+    "bundle": "tsc"
   },
   "jest": {
     "testMatch": [
