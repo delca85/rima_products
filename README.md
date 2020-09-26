@@ -1,2 +1,2 @@
-# rima_server
-apollo graphql server for rima QR code project
+# rima_products
+Server and client for rima project deployed to netlify
