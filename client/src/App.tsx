@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './common/Home';
 import RimaApolloProvider from './apollo/RimaApolloProvider';
 import MacroProductContainer from './macro-product/MacroProductContainer';
+import NoMatch from './common/NoMatch';
 const App = () => (
   <RimaApolloProvider>
     <BrowserRouter>
@@ -10,10 +11,11 @@ const App = () => (
         <Route path="/macro_product/:id">
           <MacroProductContainer />
         </Route>
-        <Route path="/">
-          <Route path="/">
-            <Home />
-          </Route>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route>
+          <NoMatch />
         </Route>
       </Switch>
     </BrowserRouter>
