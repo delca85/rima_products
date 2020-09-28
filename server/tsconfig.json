@@ -1,25 +1,24 @@
 {
-    "compilerOptions": {
-        "allowJs": true,
-        "pretty": true,
-        "module": "commonjs",
-        "noImplicitAny": true,
-        "suppressImplicitAnyIndexErrors": true,
-        "sourceMap": true,
-        "target": "es5",
-        "outDir": "./functions/bundle",
-        "lib": ["ES6"],
-        "resolveJsonModule": true, 
-        "types": ["node"],
-        "moduleResolution": "node",
-        "esModuleInterop": true,
-        // "baseUrl": ".",
-        // "emitDecoratorMetadata": true,
-        // "experimentalDecorators": true,
-        "strict": true,
-        "declaration": true,
-        // "typeRoots": [ "./node_modules/@types", "./types", "./functions/bundle", "./functions/bundle/types" ]
-    },
+  "compilerOptions": {
+    "allowJs": true,
+    "pretty": true,
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "target": "es6",
+    "outDir": "./functions/bundle",
+    "lib": ["ES6"],
+    "resolveJsonModule": true,
+    "types": ["node"],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    // "baseUrl": ".",
+    // "emitDecoratorMetadata": true,
+    // "experimentalDecorators": true,
+    "strict": true,
+    "declaration": true
+    // "typeRoots": [ "./node_modules/@types", "./types", "./functions/bundle", "./functions/bundle/types" ]
+  },
   "include": ["src"],
   "exclude": ["node_modules", "src/**/__tests__"]
 }
