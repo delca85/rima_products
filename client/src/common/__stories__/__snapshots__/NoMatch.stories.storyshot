@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots NoMatchingRoute No Match Default 1`] = `
+<div>
+  <span>
+    No page with this url: /FAKE_URL!
+  </span>
+</div>
+`;

@@ -1,4 +1,4 @@
-import { isBeta } from '../environment';
+import { isBeta, isProduction } from '../environment';
 
 describe('environment module', () => {
   const OLD_ENV = process.env;
@@ -20,5 +20,10 @@ describe('environment module', () => {
   it('should detect beta mode, when REACT_APP_ENV variable is "beta"', () => {
     process.env.REACT_APP_ENV = 'beta';
     expect(isBeta()).toBe(true);
+  });
+
+  it('should detect production mode, when REACT_APP_ENV variable is "production"', () => {
+    process.env.REACT_APP_ENV = 'production';
+    expect(isProduction()).toBe(true);
   });
 });

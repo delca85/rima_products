@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './common/Home';
 import RimaApolloProvider from './apollo/RimaApolloProvider';
 import MacroProductContainer from './macro-product/MacroProductContainer';
-import NoMatch from './common/NoMatch';
+import NoMatchingRoute from './common/NoMatchingRoute';
 const App = () => (
   <RimaApolloProvider>
     <BrowserRouter>
@@ -15,7 +15,7 @@ const App = () => (
           <Home />
         </Route>
         <Route>
-          <NoMatch />
+          <NoMatchingRoute />
         </Route>
       </Switch>
     </BrowserRouter>

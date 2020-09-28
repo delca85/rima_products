@@ -1,4 +1,8 @@
+import { addDecorator, addParameters } from '@storybook/react';
+import routerDomDecorator from './router-dom-decorator';
 
-export const parameters = {
-  actions: { argTypesRegex: "^on[A-Z].*" },
-}
+addParameters({
+  actions: { argTypesRegex: '^on[A-Z].*' },
+});
+
+addDecorator(routerDomDecorator);

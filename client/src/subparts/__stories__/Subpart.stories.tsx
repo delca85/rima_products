@@ -1,10 +1,19 @@
-import React from 'react';
+import { default as React } from 'react';
 import { IPartComponentProps } from '../../types/component.types';
 import Subpart from '../Subpart';
 
 export default {
   title: 'Subpart',
   component: Subpart,
+  decorators: [
+    (Story: React.ElementType) => (
+      <table>
+        <tbody>
+          <Story />
+        </tbody>
+      </table>
+    ),
+  ],
 };
 
 export const SubpartFull: React.FunctionComponent<IPartComponentProps> = () => (

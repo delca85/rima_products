@@ -11,3 +11,9 @@ Object {
   "graphql": "http://localhost:7000/graphql",
 }
 `;
+
+exports[`configuration by environment should return production config 1`] = `
+Object {
+  "graphql": "/.netlify/functions/graphql",
+}
+`;
