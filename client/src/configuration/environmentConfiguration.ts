@@ -16,7 +16,7 @@ export const getEnvironmentConfiguration = () => {
       graphql: graphql.production,
     };
   }
-
+  console.warn('isBeta()', isBeta(), process.env.REACT_APP_ENV);
   return {
     graphql: graphql.beta,
   };
