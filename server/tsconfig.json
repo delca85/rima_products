@@ -19,6 +19,6 @@
     "declaration": true
     // "typeRoots": [ "./node_modules/@types", "./types", "./functions/bundle", "./functions/bundle/types" ]
   },
-  "include": ["src"],
+  "include": ["src/**/*.ts", "src/**/*.js"],
   "exclude": ["node_modules", "src/**/__tests__"]
 }

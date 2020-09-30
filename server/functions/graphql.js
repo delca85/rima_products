@@ -1,9 +1,9 @@
-import { createLambdaServer } from './bundle/server';
+const { createLambdaServer } = require('./bundle/server');
 
 const server = createLambdaServer();
 
-export const handler = server.createHandler({
-    cors: {
-        origin: '*'
-    }
+exports.handler = server.createHandler({
+  cors: {
+    origin: '*',
+  },
 });
