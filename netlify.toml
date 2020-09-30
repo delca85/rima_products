@@ -2,3 +2,9 @@
   command = "yarn build"
   functions = "server/functions"
   publish = "client/build"
+
+[build.environment]
+  GENERATE_SOURCEMAP = "true"
+
+[build.production.environment]
+  GENERATE_SOURCEMAP = "false"
