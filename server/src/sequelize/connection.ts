@@ -1,4 +1,5 @@
 import { Sequelize } from 'sequelize';
+import mysql2 from 'mysql2';
 import accessEnv from '../helpers/accessEnv';
 
 const DB_NAME = accessEnv('DB_NAME');
@@ -11,6 +12,7 @@ const sequelize = new Sequelize(DB_NAME, DB_USERNAME, DB_PASSWORD, {
   host: DB_HOST,
   port: DB_PORT,
   dialect: 'mysql',
+  dialectModule: mysql2,
   logging: (...msg) => console.log(msg),
 });
 
