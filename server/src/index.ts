@@ -7,7 +7,14 @@ import accessEnv from './helpers/accessEnv';
 
 const PORT = accessEnv('PORT', 7000);
 
-sequelize.authenticate();
+sequelize
+  .authenticate()
+  .then(() => {
+    console.log('Connection has been established successfully.');
+  })
+  .catch((error) => {
+    console.error('Unable to connect to the database:', error);
+  });
 
 const server = createLocalServer();
 
