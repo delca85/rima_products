@@ -33,8 +33,11 @@ const MacroProductContainerRaw = ({ className }: IRimaComponentProps) => {
 };
 
 const MacroProductContainer = styled(MacroProductContainerRaw)`
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  .macro-product {
+    grid-column: 1 / 3;
+  }
 `;
 
 export default MacroProductContainer;
