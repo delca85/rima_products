@@ -1,8 +1,9 @@
 import { default as React } from 'react';
 import { useLocation } from 'react-router-dom';
+import styled from 'styled-components';
 import { IRimaComponentProps } from '../types/component.types';
 
-const NoMatchingRoute = ({ className }: IRimaComponentProps) => {
+const NoMatchingRouteRaw = ({ className }: IRimaComponentProps) => {
   const location = useLocation();
   return (
     <div className={className}>
@@ -10,5 +11,9 @@ const NoMatchingRoute = ({ className }: IRimaComponentProps) => {
     </div>
   );
 };
+
+const NoMatchingRoute = styled(NoMatchingRouteRaw)`
+  max-width: 100vw;
+`;
 
 export default NoMatchingRoute;
