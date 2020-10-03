@@ -33,7 +33,7 @@ const MacroProductContainerRaw = ({ className }: IRimaComponentProps) => {
 };
 
 const MacroProductContainer = styled(MacroProductContainerRaw)`
-  max-width: 100%;
+  max-width: 100vw;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   .macro-product {
