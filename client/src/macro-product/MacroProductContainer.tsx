@@ -1,7 +1,7 @@
 import { default as React } from 'react';
 import { useParams } from 'react-router-dom';
 import styled from 'styled-components';
-import { usePartsQuery } from '../types/graphql.generated';
+import { tPart, usePartsQuery } from '../types/graphql.generated';
 import { IRouteParams } from '../types/router.types';
 import { IRimaComponentProps } from '../types/component.types';
 import Loading from '../common/Loading';
@@ -21,7 +21,14 @@ const MacroProductContainerRaw = ({ className }: IRimaComponentProps) => {
   if (error || !data || !data.part) return <div>Error...</div>;
 
   const { part } = data;
-  const subparts = part.subparts || [];
+
+  let subparts: tPart[] = [];
+
+  if (part.subparts) {
+    subparts = part.subparts;
+    part.subparts.forEach((subpart) => (subparts = subparts.concat(subpart.subparts || [])));
+  }
+
   const thumb = part.thumb || '';
 
   return (

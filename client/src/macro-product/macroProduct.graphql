@@ -8,6 +8,12 @@ query Parts($id: Int!) {
       name
       thumb
       quantity
+      subparts {
+        id
+        name
+        thumb
+        quantity
+      }
     }
   }
 }

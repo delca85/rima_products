@@ -60,7 +60,7 @@ export type tPartsQueryVariables = Exact<{
 }>;
 
 
-export type tPartsQuery = { __typename?: 'Query', part?: Maybe<{ __typename?: 'Part', id: number, name: string, thumb?: Maybe<string>, subparts?: Maybe<Array<{ __typename?: 'Part', id: number, name: string, thumb?: Maybe<string>, quantity?: Maybe<number> }>> }> };
+export type tPartsQuery = { __typename?: 'Query', part?: Maybe<{ __typename?: 'Part', id: number, name: string, thumb?: Maybe<string>, subparts?: Maybe<Array<{ __typename?: 'Part', id: number, name: string, thumb?: Maybe<string>, quantity?: Maybe<number>, subparts?: Maybe<Array<{ __typename?: 'Part', id: number, name: string, thumb?: Maybe<string>, quantity?: Maybe<number> }>> }>> }> };
 
 
 export const PartsDocument = gql`
@@ -74,6 +74,12 @@ export const PartsDocument = gql`
       name
       thumb
       quantity
+      subparts {
+        id
+        name
+        thumb
+        quantity
+      }
     }
   }
 }

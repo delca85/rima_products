@@ -15,6 +15,7 @@ const resolvers: Resolvers = {
           id: subpart.id,
           name: subpart.name,
           thumb: subpart.thumb,
+          subparts: subpart.subparts,
           parentId: parent.id,
         })) || []
       );

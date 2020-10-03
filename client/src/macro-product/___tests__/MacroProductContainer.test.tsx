@@ -60,10 +60,10 @@ describe('MacroProductContainer logic test ', () => {
 
     expect(container.firstChild).toMatchInlineSnapshot(`
       <div
-        class="sc-eCApGN gSnbAo"
+        class="sc-jSFkmK cVhJlT"
       >
         <div
-          class="sc-bdnylx kyIwkg macro-product"
+          class="sc-gtssRu hUVamV macro-product"
         >
           <h2
             class="macro-product-name"
@@ -111,10 +111,10 @@ describe('MacroProductContainer logic test ', () => {
 
     expect(container.firstChild).toMatchInlineSnapshot(`
       <div
-        class="sc-eCApGN gSnbAo"
+        class="sc-jSFkmK cVhJlT"
       >
         <div
-          class="sc-bdnylx kyIwkg macro-product"
+          class="sc-gtssRu hUVamV macro-product"
         >
           <h2
             class="macro-product-name"
@@ -127,7 +127,7 @@ describe('MacroProductContainer logic test ', () => {
           />
         </div>
         <div
-          class="sc-hKFyIo cGgEdJ subparts-table"
+          class="sc-eCApGN hSPpfh subparts-table"
         >
           <div
             class="scroll-container"
@@ -141,22 +141,22 @@ describe('MacroProductContainer logic test ', () => {
               <thead>
                 <tr>
                   <th
-                    class="sc-gtssRu faRSZx"
+                    class="sc-dlnjPT cWsEjB"
                   >
                     id
                   </th>
                   <th
-                    class="sc-gtssRu faRSZx"
+                    class="sc-dlnjPT cWsEjB"
                   >
                     name
                   </th>
                   <th
-                    class="sc-gtssRu faRSZx"
+                    class="sc-dlnjPT cWsEjB"
                   >
                     quantity
                   </th>
                   <th
-                    class="sc-gtssRu faRSZx"
+                    class="sc-dlnjPT cWsEjB"
                   >
                     image
                   </th>
@@ -165,22 +165,22 @@ describe('MacroProductContainer logic test ', () => {
               <tbody>
                 <tr>
                   <td
-                    class="sc-gtssRu faRSZx"
+                    class="sc-dlnjPT cWsEjB"
                   >
                     FAKE_SUBPART_ID
                   </td>
                   <td
-                    class="sc-gtssRu faRSZx"
+                    class="sc-dlnjPT cWsEjB"
                   >
                     FAKE_SUBPART_NAME
                   </td>
                   <td
-                    class="sc-gtssRu faRSZx"
+                    class="sc-dlnjPT cWsEjB"
                   >
                     1
                   </td>
                   <td
-                    class="sc-dlnjPT haWvki"
+                    class="sc-hKFyIo ioGLMQ"
                   >
                     <img
                       alt="Subpart with id: FAKE_SUBPART_ID"
@@ -228,10 +228,10 @@ describe('MacroProductContainer logic test ', () => {
 
     expect(container.firstChild).toMatchInlineSnapshot(`
       <div
-        class="sc-eCApGN gSnbAo"
+        class="sc-jSFkmK cVhJlT"
       >
         <div
-          class="sc-bdnylx kyIwkg macro-product"
+          class="sc-gtssRu hUVamV macro-product"
         >
           <h2
             class="macro-product-name"
