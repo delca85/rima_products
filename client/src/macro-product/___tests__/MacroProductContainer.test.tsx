@@ -127,13 +127,13 @@ describe('MacroProductContainer logic test ', () => {
           />
         </div>
         <div
-          class="sc-hKFyIo cRIZDY subparts-table"
+          class="sc-hKFyIo cGgEdJ subparts-table"
         >
           <div
             class="scroll-container"
           >
             <h2>
-              Subparts
+              Spare parts
             </h2>
             <table
               class="table"

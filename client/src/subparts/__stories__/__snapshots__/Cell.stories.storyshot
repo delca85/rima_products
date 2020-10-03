@@ -1,17 +1,29 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Cell Cell Header 1`] = `
-<th
-  className="sc-gtssRu faRSZx"
->
-  name
-</th>
+<table>
+  <thead>
+    <tr>
+      <th
+        className="sc-gtssRu faRSZx"
+      >
+        name
+      </th>
+    </tr>
+  </thead>
+</table>
 `;
 
 exports[`Storyshots Cell Cell Text Long 1`] = `
-<td
-  className="sc-gtssRu faRSZx"
->
-  header with a long long long too long text
-</td>
+<table>
+  <thead>
+    <tr>
+      <td
+        className="sc-gtssRu faRSZx"
+      >
+        header with a long long long too long text
+      </td>
+    </tr>
+  </thead>
+</table>
 `;

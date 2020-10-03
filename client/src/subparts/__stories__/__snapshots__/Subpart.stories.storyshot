@@ -1,108 +1,124 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Subpart Subpart Full 1`] = `
-<tr>
-  <td
-    className="sc-gtssRu faRSZx"
-  >
-    2
-  </td>
-  <td
-    className="sc-gtssRu faRSZx"
-  >
-    screw
-  </td>
-  <td
-    className="sc-gtssRu faRSZx"
-  >
-    50
-  </td>
-  <td
-    className="sc-dlnjPT haWvki"
-  >
-    <img
-      alt="Subpart with id: 2"
-      src="https://www.rifaidate.it/attrezzi/chiodi-e-viti/viti-passo-inglese_O1.jpg"
-    />
-  </td>
-</tr>
+<table>
+  <tbody>
+    <tr>
+      <td
+        className="sc-gtssRu faRSZx"
+      >
+        2
+      </td>
+      <td
+        className="sc-gtssRu faRSZx"
+      >
+        screw
+      </td>
+      <td
+        className="sc-gtssRu faRSZx"
+      >
+        50
+      </td>
+      <td
+        className="sc-dlnjPT haWvki"
+      >
+        <img
+          alt="Subpart with id: 2"
+          src="https://www.rifaidate.it/attrezzi/chiodi-e-viti/viti-passo-inglese_O1.jpg"
+        />
+      </td>
+    </tr>
+  </tbody>
+</table>
 `;
 
 exports[`Storyshots Subpart Subpart No Img 1`] = `
-<tr>
-  <td
-    className="sc-gtssRu faRSZx"
-  >
-    2
-  </td>
-  <td
-    className="sc-gtssRu faRSZx"
-  >
-    screw lorem ipsum scripta manent verba volant
-  </td>
-  <td
-    className="sc-gtssRu faRSZx"
-  >
-    250
-  </td>
-  <td
-    className="sc-dlnjPT haWvki"
-  />
-</tr>
+<table>
+  <tbody>
+    <tr>
+      <td
+        className="sc-gtssRu faRSZx"
+      >
+        2
+      </td>
+      <td
+        className="sc-gtssRu faRSZx"
+      >
+        screw lorem ipsum scripta manent verba volant
+      </td>
+      <td
+        className="sc-gtssRu faRSZx"
+      >
+        250
+      </td>
+      <td
+        className="sc-dlnjPT haWvki"
+      />
+    </tr>
+  </tbody>
+</table>
 `;
 
 exports[`Storyshots Subpart Subpart No Quantity 1`] = `
-<tr>
-  <td
-    className="sc-gtssRu faRSZx"
-  >
-    2
-  </td>
-  <td
-    className="sc-gtssRu faRSZx"
-  >
-    screw lorem ipsum scripta manent verba volant
-  </td>
-  <td
-    className="sc-gtssRu faRSZx"
-  >
-    1
-  </td>
-  <td
-    className="sc-dlnjPT haWvki"
-  >
-    <img
-      alt="Subpart with id: 2"
-      src="https://www.rifaidate.it/attrezzi/chiodi-e-viti/viti-passo-inglese_O1.jpg"
-    />
-  </td>
-</tr>
+<table>
+  <tbody>
+    <tr>
+      <td
+        className="sc-gtssRu faRSZx"
+      >
+        2
+      </td>
+      <td
+        className="sc-gtssRu faRSZx"
+      >
+        screw lorem ipsum scripta manent verba volant
+      </td>
+      <td
+        className="sc-gtssRu faRSZx"
+      >
+        1
+      </td>
+      <td
+        className="sc-dlnjPT haWvki"
+      >
+        <img
+          alt="Subpart with id: 2"
+          src="https://www.rifaidate.it/attrezzi/chiodi-e-viti/viti-passo-inglese_O1.jpg"
+        />
+      </td>
+    </tr>
+  </tbody>
+</table>
 `;
 
 exports[`Storyshots Subpart Subpart With Long Name 1`] = `
-<tr>
-  <td
-    className="sc-gtssRu faRSZx"
-  >
-    2
-  </td>
-  <td
-    className="sc-gtssRu faRSZx"
-  >
-    screw lorem ipsum scripta manent verba volant
-  </td>
-  <td
-    className="sc-gtssRu faRSZx"
-  >
-    250
-  </td>
-  <td
-    className="sc-dlnjPT haWvki"
-  >
-    <img
-      alt="Subpart with id: 2"
-      src="https://www.rifaidate.it/attrezzi/chiodi-e-viti/viti-passo-inglese_O1.jpg"
-    />
-  </td>
-</tr>
+<table>
+  <tbody>
+    <tr>
+      <td
+        className="sc-gtssRu faRSZx"
+      >
+        2
+      </td>
+      <td
+        className="sc-gtssRu faRSZx"
+      >
+        screw lorem ipsum scripta manent verba volant
+      </td>
+      <td
+        className="sc-gtssRu faRSZx"
+      >
+        250
+      </td>
+      <td
+        className="sc-dlnjPT haWvki"
+      >
+        <img
+          alt="Subpart with id: 2"
+          src="https://www.rifaidate.it/attrezzi/chiodi-e-viti/viti-passo-inglese_O1.jpg"
+        />
+      </td>
+    </tr>
+  </tbody>
+</table>
 `;

@@ -9,7 +9,7 @@ export interface ISubpartsTableProps extends IRimaComponentProps {
 }
 
 const SUBPARTS_TABLE_HEADINGS = ['id', 'name', 'quantity', 'image'];
-export const SUBPARTS_TABLE_TITLE = 'Subparts';
+export const SUBPARTS_TABLE_TITLE = 'Spare parts';
 
 const SubpartsTableRaw = ({ className, subparts }: ISubpartsTableProps) =>
   subparts.length ? (
@@ -38,7 +38,6 @@ const SubpartsTable = styled(SubpartsTableRaw)`
     border-spacing: 0px;
     background: #fff;
     box-shadow: 0 1px 0 0 rgba(22, 29, 37, 0.05);
-    /* width: 100%; */
   }
 `;
 

@@ -4,13 +4,13 @@ exports[`Storyshots SubpartsTable Subparts Table No Elements 1`] = `null`;
 
 exports[`Storyshots SubpartsTable Subparts Table With Two Elements 1`] = `
 <div
-  className="sc-hKFyIo cRIZDY"
+  className="sc-hKFyIo cGgEdJ"
 >
   <div
     className="scroll-container"
   >
     <h2>
-      Subparts
+      Spare parts
     </h2>
     <table
       className="table"
