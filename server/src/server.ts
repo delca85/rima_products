@@ -16,7 +16,7 @@ export const createLambdaServer = () =>
     resolvers,
     introspection: true,
     playground: true,
-    validationRules: [depthLimit(2)],
+    validationRules: [depthLimit(3)],
     context,
   });
 
