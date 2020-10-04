@@ -46,7 +46,7 @@ MacroProduct.init(
     freezeTableName: true,
     tableName: 'macro_products',
     timestamps: false,
-  }
+  },
 );
 
 export type MacroProductModelStatic = typeof Model & {

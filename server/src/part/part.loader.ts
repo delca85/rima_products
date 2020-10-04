@@ -27,6 +27,8 @@ export const batchParts: tBatchParts = async (ids) => {
   return [];
 };
 
-const partLoader = () => new DataLoader<number, tPart>(batchParts);
+const loader = () => new DataLoader<number, tPart>(batchParts);
 
-export default partLoader;
+export default {
+  loader,
+};

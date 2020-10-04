@@ -4,11 +4,11 @@ import { ApolloServer as ApolloServerLambda } from 'apollo-server-lambda';
 import depthLimit from 'graphql-depth-limit';
 import { partTypeDefs, partResolvers } from './part';
 import { macroProductTypeDefs, macroProductResolvers } from './macro-product';
-import { createContext } from './context';
+import context from './context';
 
 const typeDefs = [partTypeDefs, macroProductTypeDefs];
 const resolvers = [partResolvers, macroProductResolvers];
-const context = createContext();
+const { createContext } = context;
 
 export const createLambdaServer = () =>
   new ApolloServerLambda({
@@ -17,7 +17,7 @@ export const createLambdaServer = () =>
     introspection: true,
     playground: true,
     validationRules: [depthLimit(3)],
-    context,
+    context: createContext(),
   });
 
 export const createLocalServer = () =>
@@ -27,5 +27,5 @@ export const createLocalServer = () =>
     introspection: true,
     playground: true,
     validationRules: [depthLimit(3)],
-    context,
+    context: createContext(),
   });

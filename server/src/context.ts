@@ -16,8 +16,9 @@ export interface RimaModelsContext {
   models: IModels;
   loaders: ILoaders;
 }
-
-export const createContext = (): RimaModelsContext => ({
-  models: { Part: PartModel, MacroProduct: MacroProductModel },
-  loaders: { Part: partLoader() },
-});
+export default {
+  createContext: (): RimaModelsContext => ({
+    models: { Part: PartModel, MacroProduct: MacroProductModel },
+    loaders: { Part: partLoader.loader() },
+  }),
+};

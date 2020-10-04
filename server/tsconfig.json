@@ -9,7 +9,7 @@
     "outDir": "./functions/bundle",
     "lib": ["ES6"],
     "resolveJsonModule": true,
-    "types": ["node"],
+    "types": ["node", "jest"],
     "moduleResolution": "node",
     "esModuleInterop": true,
     // "baseUrl": ".",
@@ -19,6 +19,5 @@
     "declaration": true
     // "typeRoots": [ "./node_modules/@types", "./types", "./functions/bundle", "./functions/bundle/types" ]
   },
-  "include": ["src/**/*.ts", "src/**/*.js"],
-  "exclude": ["node_modules", "src/**/__tests__"]
+  "include": ["src/**/*.ts", "src/**/*.js"]
 }
