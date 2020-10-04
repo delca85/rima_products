@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { tPart, usePartsQuery } from '../types/graphql.generated';
 import { IRouteParams } from '../types/router.types';
 import { IRimaComponentProps } from '../types/component.types';
-// import Loading from '../common/Loading';
+import Loading from '../common/Loading';
 import MacroProduct from './MacroProduct';
 import SubpartsTable from '../subparts/SubpartsTable';
 import Error from '../common/Error';
@@ -17,8 +17,7 @@ const MacroProductContainerRaw = ({ className }: IRimaComponentProps) => {
     variables: { id },
   });
 
-  // if (loading) return <Loading />;
-  if (loading) return null;
+  if (loading) return <Loading />;
 
   if (error || !data || !data.part) return <Error />;
 
