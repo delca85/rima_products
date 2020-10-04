@@ -2,10 +2,12 @@ import { mockParts, mockSubparts } from './part.mocks';
 import { batchParts } from '../part.loader';
 import { default as PartModel } from '../part.model';
 
+jest.mock('../part.model.ts', () => ({
+  findAll: () => Promise.resolve(mockParts),
+}));
+
 describe('part loader', () => {
   it('should return formatted parts', async () => {
-    jest.spyOn(PartModel, 'findAll').mockResolvedValueOnce(mockParts);
-
     const expectedParts = [
       {
         id: 1,

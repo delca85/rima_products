@@ -1,3 +1,5 @@
+import { Part } from '../../types/graphql.generated';
+
 export const mockSubparts = [
   {
     id: 1,
@@ -10,7 +12,7 @@ export const mockSubparts = [
   },
 ];
 
-export const mockParts = [
+export const mockParts: Part[] = [
   {
     id: 1,
     name: 'screw',

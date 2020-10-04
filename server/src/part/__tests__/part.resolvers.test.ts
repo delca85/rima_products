@@ -2,25 +2,19 @@ import { GraphQLResolveInfo } from 'graphql';
 import context from '../../context';
 import { mockParts, mockSubparts } from './part.mocks';
 import { default as partResolvers } from '../part.resolvers';
-import { PartModelStatic } from '../part.model';
+import PartModel from '../part.model';
 import { MacroProductModel, MacroProductModelStatic } from '../../macro-product';
 import partLoader from '../part.loader';
 
 jest.mock('../part.model.ts', () => ({
-  __esModule: true,
-  default: {
-    id: () => 1,
-  },
+  id: () => 1,
+  findByPk: (id: Number) => Promise.resolve(mockParts.find((part) => part.id === id)),
+  findAll: () => Promise.resolve(mockParts),
 }));
 
 const mockCreateContext = jest.spyOn(context, 'createContext');
 const mockPartLoader = jest.spyOn(partLoader, 'loader');
 const mockLoad = jest.fn();
-
-const mockPartModel = {
-  findByPk: (id: Number) => Promise.resolve(mockParts.find((part) => part.id === id)),
-  findAll: () => Promise.resolve(mockParts),
-};
 
 const mockInfo = {} as GraphQLResolveInfo;
 
@@ -35,7 +29,7 @@ describe('part resolvers logic', () => {
     });
     mockCreateContext.mockReturnValueOnce({
       models: {
-        Part: mockPartModel as PartModelStatic,
+        Part: PartModel,
         MacroProduct: {
           ...MacroProductModel,
           findOne: () => Promise.resolve({ quantity: 1 }),
@@ -104,7 +98,7 @@ describe('part resolvers logic', () => {
       models: {
         ...mockCreatedContext.models,
         MacroProduct: {
-          ...MacroProductModel,
+          ...mockCreatedContext.models.MacroProduct,
           findOne: () => Promise.resolve(null),
         } as MacroProductModelStatic,
       },
