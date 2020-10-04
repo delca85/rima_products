@@ -60,7 +60,7 @@ describe('MacroProductContainer logic test ', () => {
 
     expect(container.firstChild).toMatchInlineSnapshot(`
       <div
-        class="sc-jSFkmK cVhJlT"
+        class="sc-gKAblj kBkyes"
       >
         <div
           class="sc-gtssRu hUVamV macro-product"
@@ -111,7 +111,7 @@ describe('MacroProductContainer logic test ', () => {
 
     expect(container.firstChild).toMatchInlineSnapshot(`
       <div
-        class="sc-jSFkmK cVhJlT"
+        class="sc-gKAblj kBkyes"
       >
         <div
           class="sc-gtssRu hUVamV macro-product"
@@ -228,7 +228,7 @@ describe('MacroProductContainer logic test ', () => {
 
     expect(container.firstChild).toMatchInlineSnapshot(`
       <div
-        class="sc-jSFkmK cVhJlT"
+        class="sc-gKAblj kBkyes"
       >
         <div
           class="sc-gtssRu hUVamV macro-product"

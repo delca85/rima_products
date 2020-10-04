@@ -5,7 +5,7 @@ exports[`Storyshots CellImg Cell Img Default 1`] = `
   <tbody>
     <tr>
       <td
-        className="sc-dlnjPT haWvki"
+        className="sc-gKAblj erGodf"
       >
         <img
           alt="FAKE_ALT_TEXT"
@@ -22,7 +22,7 @@ exports[`Storyshots CellImg Cell Img No Src 1`] = `
   <tbody>
     <tr>
       <td
-        className="sc-dlnjPT haWvki"
+        className="sc-gKAblj erGodf"
       />
     </tr>
   </tbody>

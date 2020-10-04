@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Loading Loading Default 1`] = `
-<div>
+<div
+  className="sc-dlnjPT fzBuCj"
+>
   Loading...
 </div>
 `;
