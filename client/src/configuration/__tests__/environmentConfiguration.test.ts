@@ -1,11 +1,9 @@
-import { isBeta, isProduction } from '../environment';
+import environment from '../environment';
 import { getEnvironmentConfiguration } from '../environmentConfiguration';
-
-jest.mock('../environment');
 
 describe('configuration by environment', () => {
   it('should return beta config by default', () => {
-    isBeta.mockReturnValueOnce(false);
+    jest.spyOn(environment, 'isBeta').mockReturnValue(false);
 
     const received = getEnvironmentConfiguration();
 
@@ -13,7 +11,7 @@ describe('configuration by environment', () => {
   });
 
   it('should return beta config', () => {
-    isBeta.mockReturnValueOnce(true);
+    jest.spyOn(environment, 'isBeta').mockReturnValue(true);
 
     const received = getEnvironmentConfiguration();
 
@@ -21,7 +19,8 @@ describe('configuration by environment', () => {
   });
 
   it('should return production config', () => {
-    isProduction.mockReturnValueOnce(true);
+    jest.spyOn(environment, 'isBeta').mockReturnValue(false);
+    jest.spyOn(environment, 'isProduction').mockReturnValue(true);
 
     const received = getEnvironmentConfiguration();
 

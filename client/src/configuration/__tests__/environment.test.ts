@@ -1,4 +1,5 @@
-import { isBeta, isProduction } from '../environment';
+import environment from '../environment';
+const { isBeta, isProduction } = environment;
 
 describe('environment module', () => {
   const OLD_ENV = process.env;

@@ -2,7 +2,7 @@ import { cleanup, render } from '@testing-library/react';
 import { default as React } from 'react';
 import CellImg from '../CellImg';
 describe('CellImg visual component render test', () => {
-  let renderContainer;
+  let renderContainer: HTMLElement;
   beforeEach(() => {
     const row = document.createElement('tr');
     renderContainer = document.body.appendChild(row);

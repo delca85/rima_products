@@ -3,16 +3,18 @@ import { getEnvironmentConfiguration } from '../../configuration/environmentConf
 import buildApolloClient from '../client';
 
 jest.mock('@apollo/client', () => ({
-  ...jest.requireActual('@apollo/client'),
   ApolloClient: jest.fn(),
   InMemoryCache: jest.fn(),
 }));
 
 jest.mock('../../configuration/environmentConfiguration');
+const mockGetEnvironmentConfiguration = getEnvironmentConfiguration as jest.MockedFunction<
+  typeof getEnvironmentConfiguration
+>;
 
 describe('apollo client creation', () => {
   it('should create a compliant apollo client', () => {
-    getEnvironmentConfiguration.mockReturnValueOnce({
+    mockGetEnvironmentConfiguration.mockReturnValueOnce({
       graphql: 'FAKE_GRAPHQL',
     });
 

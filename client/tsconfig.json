@@ -14,8 +14,9 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react",
-    "sourceMap": true
+    "sourceMap": true,
+    "types": ["node", "jest"]
   },
-  "include": ["src"],
-  "exclude": ["src/**/*.test.tsx", "src/**/*.test.ts"]
+  "include": ["src"]
+  // "exclude": ["src/**/*.test.tsx", "src/**/*.test.ts"]
 }

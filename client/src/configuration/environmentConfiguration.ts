@@ -1,4 +1,4 @@
-import { isBeta, isProduction } from './environment';
+import environment from './environment';
 
 const graphql = {
   beta: 'http://localhost:7000/graphql',
@@ -6,12 +6,12 @@ const graphql = {
 };
 
 export const getEnvironmentConfiguration = () => {
-  if (isBeta()) {
+  if (environment.isBeta()) {
     return {
       graphql: graphql.beta,
     };
   }
-  if (isProduction()) {
+  if (environment.isProduction()) {
     return {
       graphql: graphql.production,
     };
