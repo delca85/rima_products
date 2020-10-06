@@ -2,7 +2,7 @@
 
 exports[`Storyshots DownloadItems Download Items Default 1`] = `
 <div
-  className="sc-eCApGN hfgmow"
+  className="sc-eCApGN svCya"
 >
   <a
     data-for="manual-tip"
@@ -12,7 +12,7 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
     target="_blank"
   >
     <div
-      className="__react_component_tooltip t5de603f9-7b79-48e7-9132-c082e7090d91 place-top type-dark"
+      className="__react_component_tooltip t08c6d9b2-a41e-4069-8910-1e1fc24cc133 place-top type-dark"
       data-id="tooltip"
       id="manual-tip"
     >
@@ -20,19 +20,19 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         dangerouslySetInnerHTML={
           Object {
             "__html": "
-  	.t5de603f9-7b79-48e7-9132-c082e7090d91 {
+  	.t08c6d9b2-a41e-4069-8910-1e1fc24cc133 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t5de603f9-7b79-48e7-9132-c082e7090d91.place-top {
+  	.t08c6d9b2-a41e-4069-8910-1e1fc24cc133.place-top {
         margin-top: -10px;
     }
-    .t5de603f9-7b79-48e7-9132-c082e7090d91.place-top::before {
+    .t08c6d9b2-a41e-4069-8910-1e1fc24cc133.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t5de603f9-7b79-48e7-9132-c082e7090d91.place-top::after {
+    .t08c6d9b2-a41e-4069-8910-1e1fc24cc133.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -43,13 +43,13 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         border-top-width: 6px;
     }
 
-    .t5de603f9-7b79-48e7-9132-c082e7090d91.place-bottom {
+    .t08c6d9b2-a41e-4069-8910-1e1fc24cc133.place-bottom {
         margin-top: 10px;
     }
-    .t5de603f9-7b79-48e7-9132-c082e7090d91.place-bottom::before {
+    .t08c6d9b2-a41e-4069-8910-1e1fc24cc133.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t5de603f9-7b79-48e7-9132-c082e7090d91.place-bottom::after {
+    .t08c6d9b2-a41e-4069-8910-1e1fc24cc133.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -60,13 +60,13 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         border-bottom-width: 6px;
     }
 
-    .t5de603f9-7b79-48e7-9132-c082e7090d91.place-left {
+    .t08c6d9b2-a41e-4069-8910-1e1fc24cc133.place-left {
         margin-left: -10px;
     }
-    .t5de603f9-7b79-48e7-9132-c082e7090d91.place-left::before {
+    .t08c6d9b2-a41e-4069-8910-1e1fc24cc133.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t5de603f9-7b79-48e7-9132-c082e7090d91.place-left::after {
+    .t08c6d9b2-a41e-4069-8910-1e1fc24cc133.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -77,13 +77,13 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         border-left-width: 6px;
     }
 
-    .t5de603f9-7b79-48e7-9132-c082e7090d91.place-right {
+    .t08c6d9b2-a41e-4069-8910-1e1fc24cc133.place-right {
         margin-left: 10px;
     }
-    .t5de603f9-7b79-48e7-9132-c082e7090d91.place-right::before {
+    .t08c6d9b2-a41e-4069-8910-1e1fc24cc133.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t5de603f9-7b79-48e7-9132-c082e7090d91.place-right::after {
+    .t08c6d9b2-a41e-4069-8910-1e1fc24cc133.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -114,7 +114,7 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
     target="_blank"
   >
     <div
-      className="__react_component_tooltip t9fb31cb8-9517-4b7b-9d6d-c5080845de08 place-top type-dark"
+      className="__react_component_tooltip t397ae972-4b05-4d04-823c-c550b53bfca6 place-top type-dark"
       data-id="tooltip"
       id="drawings-tip"
     >
@@ -122,19 +122,19 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         dangerouslySetInnerHTML={
           Object {
             "__html": "
-  	.t9fb31cb8-9517-4b7b-9d6d-c5080845de08 {
+  	.t397ae972-4b05-4d04-823c-c550b53bfca6 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t9fb31cb8-9517-4b7b-9d6d-c5080845de08.place-top {
+  	.t397ae972-4b05-4d04-823c-c550b53bfca6.place-top {
         margin-top: -10px;
     }
-    .t9fb31cb8-9517-4b7b-9d6d-c5080845de08.place-top::before {
+    .t397ae972-4b05-4d04-823c-c550b53bfca6.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t9fb31cb8-9517-4b7b-9d6d-c5080845de08.place-top::after {
+    .t397ae972-4b05-4d04-823c-c550b53bfca6.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -145,13 +145,13 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         border-top-width: 6px;
     }
 
-    .t9fb31cb8-9517-4b7b-9d6d-c5080845de08.place-bottom {
+    .t397ae972-4b05-4d04-823c-c550b53bfca6.place-bottom {
         margin-top: 10px;
     }
-    .t9fb31cb8-9517-4b7b-9d6d-c5080845de08.place-bottom::before {
+    .t397ae972-4b05-4d04-823c-c550b53bfca6.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t9fb31cb8-9517-4b7b-9d6d-c5080845de08.place-bottom::after {
+    .t397ae972-4b05-4d04-823c-c550b53bfca6.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -162,13 +162,13 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         border-bottom-width: 6px;
     }
 
-    .t9fb31cb8-9517-4b7b-9d6d-c5080845de08.place-left {
+    .t397ae972-4b05-4d04-823c-c550b53bfca6.place-left {
         margin-left: -10px;
     }
-    .t9fb31cb8-9517-4b7b-9d6d-c5080845de08.place-left::before {
+    .t397ae972-4b05-4d04-823c-c550b53bfca6.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t9fb31cb8-9517-4b7b-9d6d-c5080845de08.place-left::after {
+    .t397ae972-4b05-4d04-823c-c550b53bfca6.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -179,13 +179,13 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         border-left-width: 6px;
     }
 
-    .t9fb31cb8-9517-4b7b-9d6d-c5080845de08.place-right {
+    .t397ae972-4b05-4d04-823c-c550b53bfca6.place-right {
         margin-left: 10px;
     }
-    .t9fb31cb8-9517-4b7b-9d6d-c5080845de08.place-right::before {
+    .t397ae972-4b05-4d04-823c-c550b53bfca6.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t9fb31cb8-9517-4b7b-9d6d-c5080845de08.place-right::after {
+    .t397ae972-4b05-4d04-823c-c550b53bfca6.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;

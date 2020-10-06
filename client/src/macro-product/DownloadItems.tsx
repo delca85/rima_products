@@ -34,12 +34,19 @@ const DownloadItemsRaw = ({ className }: IRimaComponentProps) => (
 
 const DownloadItems = styled(DownloadItemsRaw)`
   flex: 1;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  justify-content: start;
   a {
     margin: 0 10px;
+    height: 4rem;
+    display: flex;
+    align-items: center;
   }
   img {
-    width: 5%;
-    height: auto;
+    width: auto;
+    height: 50%;
     :hover {
       cursor: pointer;
     }

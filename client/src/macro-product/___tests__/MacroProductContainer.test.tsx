@@ -100,7 +100,7 @@ describe('MacroProductContainer logic test ', () => {
               FAKE_NAME
             </h2>
             <div
-              class="sc-gtssRu bxA-DxO"
+              class="sc-gtssRu hDnYhE"
             >
               <a
                 data-for="manual-tip"
@@ -218,7 +218,7 @@ describe('MacroProductContainer logic test ', () => {
               FAKE_NAME
             </h2>
             <div
-              class="sc-gtssRu bxA-DxO"
+              class="sc-gtssRu hDnYhE"
             >
               <a
                 data-for="manual-tip"
@@ -412,7 +412,7 @@ describe('MacroProductContainer logic test ', () => {
               FAKE_NAME
             </h2>
             <div
-              class="sc-gtssRu bxA-DxO"
+              class="sc-gtssRu hDnYhE"
             >
               <a
                 data-for="manual-tip"

@@ -33,6 +33,7 @@ const SubpartsTableRaw = ({ className, subparts }: ISubpartsTableProps) =>
       </div>
     </div>
   ) : null;
+
 const SubpartsTable = styled(SubpartsTableRaw)`
   max-width: 100vw;
   .scroll-container {
