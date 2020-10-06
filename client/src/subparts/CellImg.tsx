@@ -22,13 +22,14 @@ const CellImg = styled(CellImgRaw)`
   vertical-align: middle;
   border: 1px solid #f4f6f8;
   padding: 4px;
-  max-width: 45px;
-  text-align: left;
+  max-width: 3rem;
+  text-align: center;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   img {
-    width: 100%;
+    width: 40%;
+    height: auto;
   }
 `;
 export default CellImg;

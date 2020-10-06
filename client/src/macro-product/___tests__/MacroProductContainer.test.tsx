@@ -146,14 +146,25 @@ describe('MacroProductContainer logic test ', () => {
           />
         </div>
         <div
-          class="sc-eCApGN hSPpfh subparts-table"
+          class="sc-eCApGN fSHyyz subparts-table"
         >
           <div
             class="scroll-container"
           >
-            <h2>
-              Spare parts
-            </h2>
+            <div
+              class="table-title-icon"
+            >
+              <h2
+                class="title"
+              >
+                Spare parts
+              </h2>
+              <svg
+                class="icon"
+              >
+                spareParts.svg
+              </svg>
+            </div>
             <table
               class="table"
             >
@@ -199,7 +210,7 @@ describe('MacroProductContainer logic test ', () => {
                     1
                   </td>
                   <td
-                    class="sc-hKFyIo ioGLMQ"
+                    class="sc-hKFyIo SjQym"
                   >
                     <img
                       alt="Subpart with id: 2"

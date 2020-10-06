@@ -17,7 +17,7 @@ describe('CellImg visual component render test', () => {
     expect(queryByText('FAKE_ALT_TEXT')).toBeNull();
     expect(container.firstChild).toMatchInlineSnapshot(`
       <td
-        class="sc-bdnylx glZXFX"
+        class="sc-bdnylx jzEwVN"
       />
     `);
     expect(container.firstChild.firstChild).toBeNull();
@@ -31,7 +31,7 @@ describe('CellImg visual component render test', () => {
     expect(queryByText('FAKE_ALT_TEXT')).toBeDefined();
     expect(container.firstChild).toMatchInlineSnapshot(`
       <td
-        class="sc-bdnylx glZXFX"
+        class="sc-bdnylx jzEwVN"
       >
         <img
           alt="FAKE_ALT_TEXT"
