@@ -5,7 +5,7 @@ exports[`Storyshots Cell Cell Header 1`] = `
   <thead>
     <tr>
       <th
-        className="sc-jSFkmK dutfrr"
+        className="sc-gKAblj clqaqU"
       >
         name
       </th>
@@ -19,7 +19,7 @@ exports[`Storyshots Cell Cell Text Long 1`] = `
   <thead>
     <tr>
       <td
-        className="sc-jSFkmK dutfrr"
+        className="sc-gKAblj clqaqU"
       >
         header with a long long long too long text
       </td>

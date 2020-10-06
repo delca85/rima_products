@@ -2,15 +2,228 @@
 
 exports[`Storyshots MacroProduct Macro Product Default 1`] = `
 <div
-  className="sc-eCApGN QUUcn"
+  className="sc-jSFkmK eNiFKJ"
 >
-  <h2
-    className="macro-product-name"
+  <div
+    className="macro-product-name-downloads"
   >
-    rail brake
-  </h2>
+    <h2
+      className="macro-product-name"
+    >
+      rail brake
+    </h2>
+    <div
+      className="sc-eCApGN hfgmow"
+    >
+      <a
+        data-for="manual-tip"
+        data-tip={true}
+        href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <div
+          className="__react_component_tooltip t0d42e5c6-fcdd-47d4-9630-86841f63e438 place-top type-dark"
+          data-id="tooltip"
+          id="manual-tip"
+        >
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "
+  	.t0d42e5c6-fcdd-47d4-9630-86841f63e438 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t0d42e5c6-fcdd-47d4-9630-86841f63e438.place-top {
+        margin-top: -10px;
+    }
+    .t0d42e5c6-fcdd-47d4-9630-86841f63e438.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t0d42e5c6-fcdd-47d4-9630-86841f63e438.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t0d42e5c6-fcdd-47d4-9630-86841f63e438.place-bottom {
+        margin-top: 10px;
+    }
+    .t0d42e5c6-fcdd-47d4-9630-86841f63e438.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t0d42e5c6-fcdd-47d4-9630-86841f63e438.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t0d42e5c6-fcdd-47d4-9630-86841f63e438.place-left {
+        margin-left: -10px;
+    }
+    .t0d42e5c6-fcdd-47d4-9630-86841f63e438.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t0d42e5c6-fcdd-47d4-9630-86841f63e438.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t0d42e5c6-fcdd-47d4-9630-86841f63e438.place-right {
+        margin-left: 10px;
+    }
+    .t0d42e5c6-fcdd-47d4-9630-86841f63e438.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t0d42e5c6-fcdd-47d4-9630-86841f63e438.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  ",
+              }
+            }
+          />
+          <span>
+            Download Manual
+          </span>
+        </div>
+        <img
+          alt="Manual"
+          src="manual.svg"
+        />
+      </a>
+      <a
+        data-for="drawings-tip"
+        data-tip={true}
+        href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <div
+          className="__react_component_tooltip tf3115c3d-7093-4994-b516-654ec2fdbed9 place-top type-dark"
+          data-id="tooltip"
+          id="drawings-tip"
+        >
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "
+  	.tf3115c3d-7093-4994-b516-654ec2fdbed9 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.tf3115c3d-7093-4994-b516-654ec2fdbed9.place-top {
+        margin-top: -10px;
+    }
+    .tf3115c3d-7093-4994-b516-654ec2fdbed9.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .tf3115c3d-7093-4994-b516-654ec2fdbed9.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .tf3115c3d-7093-4994-b516-654ec2fdbed9.place-bottom {
+        margin-top: 10px;
+    }
+    .tf3115c3d-7093-4994-b516-654ec2fdbed9.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .tf3115c3d-7093-4994-b516-654ec2fdbed9.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .tf3115c3d-7093-4994-b516-654ec2fdbed9.place-left {
+        margin-left: -10px;
+    }
+    .tf3115c3d-7093-4994-b516-654ec2fdbed9.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .tf3115c3d-7093-4994-b516-654ec2fdbed9.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .tf3115c3d-7093-4994-b516-654ec2fdbed9.place-right {
+        margin-left: 10px;
+    }
+    .tf3115c3d-7093-4994-b516-654ec2fdbed9.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .tf3115c3d-7093-4994-b516-654ec2fdbed9.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  ",
+              }
+            }
+          />
+          <span>
+            Download Drawings
+          </span>
+        </div>
+        <img
+          alt="Drawings"
+          src="drawings.svg"
+        />
+      </a>
+    </div>
+  </div>
   <img
     alt="Product with id: 1"
+    className="macro-product-image"
     src="https://www.rimagroup.com/wp-content/uploads/2019/06/Rail-Brake-TM.png"
   />
 </div>
@@ -18,15 +231,228 @@ exports[`Storyshots MacroProduct Macro Product Default 1`] = `
 
 exports[`Storyshots MacroProduct Macro Product No Thumb 1`] = `
 <div
-  className="sc-eCApGN QUUcn"
+  className="sc-jSFkmK eNiFKJ"
 >
-  <h2
-    className="macro-product-name"
+  <div
+    className="macro-product-name-downloads"
   >
-    rail brake
-  </h2>
+    <h2
+      className="macro-product-name"
+    >
+      rail brake
+    </h2>
+    <div
+      className="sc-eCApGN hfgmow"
+    >
+      <a
+        data-for="manual-tip"
+        data-tip={true}
+        href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <div
+          className="__react_component_tooltip t4cf37a1f-a36e-476b-935b-ce1e3e0dc52c place-top type-dark"
+          data-id="tooltip"
+          id="manual-tip"
+        >
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "
+  	.t4cf37a1f-a36e-476b-935b-ce1e3e0dc52c {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t4cf37a1f-a36e-476b-935b-ce1e3e0dc52c.place-top {
+        margin-top: -10px;
+    }
+    .t4cf37a1f-a36e-476b-935b-ce1e3e0dc52c.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t4cf37a1f-a36e-476b-935b-ce1e3e0dc52c.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t4cf37a1f-a36e-476b-935b-ce1e3e0dc52c.place-bottom {
+        margin-top: 10px;
+    }
+    .t4cf37a1f-a36e-476b-935b-ce1e3e0dc52c.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t4cf37a1f-a36e-476b-935b-ce1e3e0dc52c.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t4cf37a1f-a36e-476b-935b-ce1e3e0dc52c.place-left {
+        margin-left: -10px;
+    }
+    .t4cf37a1f-a36e-476b-935b-ce1e3e0dc52c.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t4cf37a1f-a36e-476b-935b-ce1e3e0dc52c.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t4cf37a1f-a36e-476b-935b-ce1e3e0dc52c.place-right {
+        margin-left: 10px;
+    }
+    .t4cf37a1f-a36e-476b-935b-ce1e3e0dc52c.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t4cf37a1f-a36e-476b-935b-ce1e3e0dc52c.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  ",
+              }
+            }
+          />
+          <span>
+            Download Manual
+          </span>
+        </div>
+        <img
+          alt="Manual"
+          src="manual.svg"
+        />
+      </a>
+      <a
+        data-for="drawings-tip"
+        data-tip={true}
+        href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <div
+          className="__react_component_tooltip t465290f7-3d19-4b67-b879-415c533b0169 place-top type-dark"
+          data-id="tooltip"
+          id="drawings-tip"
+        >
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "
+  	.t465290f7-3d19-4b67-b879-415c533b0169 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t465290f7-3d19-4b67-b879-415c533b0169.place-top {
+        margin-top: -10px;
+    }
+    .t465290f7-3d19-4b67-b879-415c533b0169.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t465290f7-3d19-4b67-b879-415c533b0169.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t465290f7-3d19-4b67-b879-415c533b0169.place-bottom {
+        margin-top: 10px;
+    }
+    .t465290f7-3d19-4b67-b879-415c533b0169.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t465290f7-3d19-4b67-b879-415c533b0169.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t465290f7-3d19-4b67-b879-415c533b0169.place-left {
+        margin-left: -10px;
+    }
+    .t465290f7-3d19-4b67-b879-415c533b0169.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t465290f7-3d19-4b67-b879-415c533b0169.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t465290f7-3d19-4b67-b879-415c533b0169.place-right {
+        margin-left: 10px;
+    }
+    .t465290f7-3d19-4b67-b879-415c533b0169.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t465290f7-3d19-4b67-b879-415c533b0169.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  ",
+              }
+            }
+          />
+          <span>
+            Download Drawings
+          </span>
+        </div>
+        <img
+          alt="Drawings"
+          src="drawings.svg"
+        />
+      </a>
+    </div>
+  </div>
   <img
     alt="Product with id: 1"
+    className="macro-product-image"
     src=""
   />
 </div>

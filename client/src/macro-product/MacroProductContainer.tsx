@@ -36,6 +36,17 @@ const MacroProductContainerRaw = ({ className }: IRimaComponentProps) => {
     <div className={className}>
       <MacroProduct className="macro-product" id={id} name={part.name} thumb={thumb} />
       <SubpartsTable className="subparts-table" subparts={subparts} />
+      <footer>
+        Icons made by{' '}
+        <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
+          Freepik
+        </a>{' '}
+        from
+        <a href="https://www.flaticon.com/" title="Flaticon">
+          {' '}
+          www.flaticon.com
+        </a>
+      </footer>
     </div>
   );
 };
@@ -46,6 +57,10 @@ const MacroProductContainer = styled(MacroProductContainerRaw)`
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   .macro-product {
     grid-column: 1 / 3;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
   }
 `;
 

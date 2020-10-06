@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots DownloadItems Download Items Default 1`] = `
+<div
+  className="sc-eCApGN hfgmow"
+>
+  <a
+    data-for="manual-tip"
+    data-tip={true}
+    href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <div
+      className="__react_component_tooltip t5de603f9-7b79-48e7-9132-c082e7090d91 place-top type-dark"
+      data-id="tooltip"
+      id="manual-tip"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "
+  	.t5de603f9-7b79-48e7-9132-c082e7090d91 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t5de603f9-7b79-48e7-9132-c082e7090d91.place-top {
+        margin-top: -10px;
+    }
+    .t5de603f9-7b79-48e7-9132-c082e7090d91.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t5de603f9-7b79-48e7-9132-c082e7090d91.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t5de603f9-7b79-48e7-9132-c082e7090d91.place-bottom {
+        margin-top: 10px;
+    }
+    .t5de603f9-7b79-48e7-9132-c082e7090d91.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t5de603f9-7b79-48e7-9132-c082e7090d91.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t5de603f9-7b79-48e7-9132-c082e7090d91.place-left {
+        margin-left: -10px;
+    }
+    .t5de603f9-7b79-48e7-9132-c082e7090d91.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t5de603f9-7b79-48e7-9132-c082e7090d91.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t5de603f9-7b79-48e7-9132-c082e7090d91.place-right {
+        margin-left: 10px;
+    }
+    .t5de603f9-7b79-48e7-9132-c082e7090d91.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t5de603f9-7b79-48e7-9132-c082e7090d91.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  ",
+          }
+        }
+      />
+      <span>
+        Download Manual
+      </span>
+    </div>
+    <img
+      alt="Manual"
+      src="manual.svg"
+    />
+  </a>
+  <a
+    data-for="drawings-tip"
+    data-tip={true}
+    href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <div
+      className="__react_component_tooltip t9fb31cb8-9517-4b7b-9d6d-c5080845de08 place-top type-dark"
+      data-id="tooltip"
+      id="drawings-tip"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "
+  	.t9fb31cb8-9517-4b7b-9d6d-c5080845de08 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t9fb31cb8-9517-4b7b-9d6d-c5080845de08.place-top {
+        margin-top: -10px;
+    }
+    .t9fb31cb8-9517-4b7b-9d6d-c5080845de08.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t9fb31cb8-9517-4b7b-9d6d-c5080845de08.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t9fb31cb8-9517-4b7b-9d6d-c5080845de08.place-bottom {
+        margin-top: 10px;
+    }
+    .t9fb31cb8-9517-4b7b-9d6d-c5080845de08.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t9fb31cb8-9517-4b7b-9d6d-c5080845de08.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t9fb31cb8-9517-4b7b-9d6d-c5080845de08.place-left {
+        margin-left: -10px;
+    }
+    .t9fb31cb8-9517-4b7b-9d6d-c5080845de08.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t9fb31cb8-9517-4b7b-9d6d-c5080845de08.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t9fb31cb8-9517-4b7b-9d6d-c5080845de08.place-right {
+        margin-left: 10px;
+    }
+    .t9fb31cb8-9517-4b7b-9d6d-c5080845de08.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t9fb31cb8-9517-4b7b-9d6d-c5080845de08.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  ",
+          }
+        }
+      />
+      <span>
+        Download Drawings
+      </span>
+    </div>
+    <img
+      alt="Drawings"
+      src="drawings.svg"
+    />
+  </a>
+</div>
+`;

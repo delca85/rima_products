@@ -41,10 +41,11 @@ const SubpartsTable = styled(SubpartsTableRaw)`
   .table-title-icon {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     height: 4rem;
     margin-bottom: 10px;
     .icon {
-      height: 100%;
+      height: 50%;
       width: auto;
     }
   }

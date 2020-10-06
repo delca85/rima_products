@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { default as React, ReactNode } from 'react';
 import { ApolloError, NetworkStatus } from '@apollo/react-hooks';
 import { PartsQueryResult, usePartsQuery } from '../../types/graphql.generated';
 import buildApolloClient from '../../apollo/client';
@@ -7,6 +7,12 @@ import renderWithRouter from '../../dev-tools/testUtils';
 import { SUBPARTS_TABLE_TITLE } from '../../subparts/SubpartsTable';
 
 jest.mock('../../types/graphql.generated');
+jest.mock('react-tooltip', () => ({
+  __esModule: true,
+  default: ({ id, children }: { id: string; children: ReactNode }) => (
+    <div id={id}> {children}</div>
+  ),
+}));
 
 const mockUsePartsQuery = usePartsQuery as jest.MockedFunction<typeof usePartsQuery>;
 const mockReturnValue: PartsQueryResult = {
@@ -80,21 +86,89 @@ describe('MacroProductContainer logic test ', () => {
 
     expect(container.firstChild).toMatchInlineSnapshot(`
       <div
-        class="sc-gKAblj kBkyes"
+        class="sc-iCoHVE jyXeJQ"
       >
         <div
-          class="sc-gtssRu hUVamV macro-product"
+          class="sc-dlnjPT emuUqz macro-product"
         >
-          <h2
-            class="macro-product-name"
+          <div
+            class="macro-product-name-downloads"
           >
-            FAKE_NAME
-          </h2>
+            <h2
+              class="macro-product-name"
+            >
+              FAKE_NAME
+            </h2>
+            <div
+              class="sc-gtssRu bxA-DxO"
+            >
+              <a
+                data-for="manual-tip"
+                data-tip="true"
+                href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div
+                  id="manual-tip"
+                >
+                   
+                  <span>
+                    Download Manual
+                  </span>
+                </div>
+                <img
+                  alt="Manual"
+                  src="manual.svg"
+                />
+              </a>
+              <a
+                data-for="drawings-tip"
+                data-tip="true"
+                href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div
+                  id="drawings-tip"
+                >
+                   
+                  <span>
+                    Download Drawings
+                  </span>
+                </div>
+                <img
+                  alt="Drawings"
+                  src="drawings.svg"
+                />
+              </a>
+            </div>
+          </div>
           <img
             alt="Product with id: 1"
+            class="macro-product-image"
             src=""
           />
         </div>
+        <footer>
+          Icons made by
+           
+          <a
+            href="https://www.flaticon.com/authors/freepik"
+            title="Freepik"
+          >
+            Freepik
+          </a>
+           
+          from
+          <a
+            href="https://www.flaticon.com/"
+            title="Flaticon"
+          >
+             
+            www.flaticon.com
+          </a>
+        </footer>
       </div>
     `);
     expect(getByText('FAKE_NAME')).toBeDefined();
@@ -130,23 +204,72 @@ describe('MacroProductContainer logic test ', () => {
 
     expect(container.firstChild).toMatchInlineSnapshot(`
       <div
-        class="sc-gKAblj kBkyes"
+        class="sc-iCoHVE jyXeJQ"
       >
         <div
-          class="sc-gtssRu hUVamV macro-product"
+          class="sc-dlnjPT emuUqz macro-product"
         >
-          <h2
-            class="macro-product-name"
+          <div
+            class="macro-product-name-downloads"
           >
-            FAKE_NAME
-          </h2>
+            <h2
+              class="macro-product-name"
+            >
+              FAKE_NAME
+            </h2>
+            <div
+              class="sc-gtssRu bxA-DxO"
+            >
+              <a
+                data-for="manual-tip"
+                data-tip="true"
+                href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div
+                  id="manual-tip"
+                >
+                   
+                  <span>
+                    Download Manual
+                  </span>
+                </div>
+                <img
+                  alt="Manual"
+                  src="manual.svg"
+                />
+              </a>
+              <a
+                data-for="drawings-tip"
+                data-tip="true"
+                href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div
+                  id="drawings-tip"
+                >
+                   
+                  <span>
+                    Download Drawings
+                  </span>
+                </div>
+                <img
+                  alt="Drawings"
+                  src="drawings.svg"
+                />
+              </a>
+            </div>
+          </div>
           <img
             alt="Product with id: 1"
+            class="macro-product-image"
             src="FAKE_THUMB"
           />
         </div>
         <div
-          class="sc-eCApGN fSHyyz subparts-table"
+          class="sc-jSFkmK kWiBnt subparts-table"
         >
           <div
             class="scroll-container"
@@ -171,22 +294,22 @@ describe('MacroProductContainer logic test ', () => {
               <thead>
                 <tr>
                   <th
-                    class="sc-dlnjPT cWsEjB"
+                    class="sc-hKFyIo bGlfBr"
                   >
                     id
                   </th>
                   <th
-                    class="sc-dlnjPT cWsEjB"
+                    class="sc-hKFyIo bGlfBr"
                   >
                     name
                   </th>
                   <th
-                    class="sc-dlnjPT cWsEjB"
+                    class="sc-hKFyIo bGlfBr"
                   >
                     quantity
                   </th>
                   <th
-                    class="sc-dlnjPT cWsEjB"
+                    class="sc-hKFyIo bGlfBr"
                   >
                     image
                   </th>
@@ -195,22 +318,22 @@ describe('MacroProductContainer logic test ', () => {
               <tbody>
                 <tr>
                   <td
-                    class="sc-dlnjPT cWsEjB"
+                    class="sc-hKFyIo bGlfBr"
                   >
                     2
                   </td>
                   <td
-                    class="sc-dlnjPT cWsEjB"
+                    class="sc-hKFyIo bGlfBr"
                   >
                     FAKE_SUBPART_NAME
                   </td>
                   <td
-                    class="sc-dlnjPT cWsEjB"
+                    class="sc-hKFyIo bGlfBr"
                   >
                     1
                   </td>
                   <td
-                    class="sc-hKFyIo SjQym"
+                    class="sc-eCApGN eosXfu"
                   >
                     <img
                       alt="Subpart with id: 2"
@@ -222,6 +345,25 @@ describe('MacroProductContainer logic test ', () => {
             </table>
           </div>
         </div>
+        <footer>
+          Icons made by
+           
+          <a
+            href="https://www.flaticon.com/authors/freepik"
+            title="Freepik"
+          >
+            Freepik
+          </a>
+           
+          from
+          <a
+            href="https://www.flaticon.com/"
+            title="Flaticon"
+          >
+             
+            www.flaticon.com
+          </a>
+        </footer>
       </div>
     `);
     expect(getByText('FAKE_NAME')).toBeDefined();
@@ -256,21 +398,89 @@ describe('MacroProductContainer logic test ', () => {
 
     expect(container.firstChild).toMatchInlineSnapshot(`
       <div
-        class="sc-gKAblj kBkyes"
+        class="sc-iCoHVE jyXeJQ"
       >
         <div
-          class="sc-gtssRu hUVamV macro-product"
+          class="sc-dlnjPT emuUqz macro-product"
         >
-          <h2
-            class="macro-product-name"
+          <div
+            class="macro-product-name-downloads"
           >
-            FAKE_NAME
-          </h2>
+            <h2
+              class="macro-product-name"
+            >
+              FAKE_NAME
+            </h2>
+            <div
+              class="sc-gtssRu bxA-DxO"
+            >
+              <a
+                data-for="manual-tip"
+                data-tip="true"
+                href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div
+                  id="manual-tip"
+                >
+                   
+                  <span>
+                    Download Manual
+                  </span>
+                </div>
+                <img
+                  alt="Manual"
+                  src="manual.svg"
+                />
+              </a>
+              <a
+                data-for="drawings-tip"
+                data-tip="true"
+                href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div
+                  id="drawings-tip"
+                >
+                   
+                  <span>
+                    Download Drawings
+                  </span>
+                </div>
+                <img
+                  alt="Drawings"
+                  src="drawings.svg"
+                />
+              </a>
+            </div>
+          </div>
           <img
             alt="Product with id: 1"
+            class="macro-product-image"
             src="FAKE_THUMB"
           />
         </div>
+        <footer>
+          Icons made by
+           
+          <a
+            href="https://www.flaticon.com/authors/freepik"
+            title="Freepik"
+          >
+            Freepik
+          </a>
+           
+          from
+          <a
+            href="https://www.flaticon.com/"
+            title="Flaticon"
+          >
+             
+            www.flaticon.com
+          </a>
+        </footer>
       </div>
     `);
     expect(getByText('FAKE_NAME')).toBeDefined();

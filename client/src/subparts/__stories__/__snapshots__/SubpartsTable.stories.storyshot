@@ -4,36 +4,47 @@ exports[`Storyshots SubpartsTable Subparts Table No Elements 1`] = `null`;
 
 exports[`Storyshots SubpartsTable Subparts Table With Two Elements 1`] = `
 <div
-  className="sc-iCoHVE kqVLhF"
+  className="sc-fujyUd eMvNHG"
 >
   <div
     className="scroll-container"
   >
-    <h2>
-      Spare parts
-    </h2>
+    <div
+      className="table-title-icon"
+    >
+      <h2
+        className="title"
+      >
+        Spare parts
+      </h2>
+      <svg
+        className="icon"
+      >
+        spareParts.svg
+      </svg>
+    </div>
     <table
       className="table"
     >
       <thead>
         <tr>
           <th
-            className="sc-jSFkmK dutfrr"
+            className="sc-gKAblj clqaqU"
           >
             id
           </th>
           <th
-            className="sc-jSFkmK dutfrr"
+            className="sc-gKAblj clqaqU"
           >
             name
           </th>
           <th
-            className="sc-jSFkmK dutfrr"
+            className="sc-gKAblj clqaqU"
           >
             quantity
           </th>
           <th
-            className="sc-jSFkmK dutfrr"
+            className="sc-gKAblj clqaqU"
           >
             image
           </th>
@@ -42,22 +53,22 @@ exports[`Storyshots SubpartsTable Subparts Table With Two Elements 1`] = `
       <tbody>
         <tr>
           <td
-            className="sc-jSFkmK dutfrr"
+            className="sc-gKAblj clqaqU"
           >
             2
           </td>
           <td
-            className="sc-jSFkmK dutfrr"
+            className="sc-gKAblj clqaqU"
           >
             screw
           </td>
           <td
-            className="sc-jSFkmK dutfrr"
+            className="sc-gKAblj clqaqU"
           >
             50
           </td>
           <td
-            className="sc-gKAblj erGodf"
+            className="sc-iCoHVE fvxUuy"
           >
             <img
               alt="Subpart with id: 2"
@@ -67,22 +78,22 @@ exports[`Storyshots SubpartsTable Subparts Table With Two Elements 1`] = `
         </tr>
         <tr>
           <td
-            className="sc-jSFkmK dutfrr"
+            className="sc-gKAblj clqaqU"
           >
             3
           </td>
           <td
-            className="sc-jSFkmK dutfrr"
+            className="sc-gKAblj clqaqU"
           >
             screw diece lorem ipsum long
           </td>
           <td
-            className="sc-jSFkmK dutfrr"
+            className="sc-gKAblj clqaqU"
           >
             250
           </td>
           <td
-            className="sc-gKAblj erGodf"
+            className="sc-iCoHVE fvxUuy"
           >
             <img
               alt="Subpart with id: 3"
