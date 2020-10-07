@@ -86,71 +86,77 @@ describe('MacroProductContainer logic test ', () => {
 
     expect(container.firstChild).toMatchInlineSnapshot(`
       <div
-        class="sc-iCoHVE jyXeJQ"
+        class="sc-fujyUd pfnpL"
       >
         <div
-          class="sc-dlnjPT emuUqz macro-product"
+          class="macro-product-container"
         >
           <div
-            class="macro-product-name-downloads"
+            class="sc-dlnjPT bEyrhE macro-product"
           >
-            <h2
-              class="macro-product-name"
-            >
-              FAKE_NAME
-            </h2>
             <div
-              class="sc-gtssRu hDnYhE"
+              class="macro-product-name-downloads"
             >
-              <a
-                data-for="manual-tip"
-                data-tip="true"
-                href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
-                rel="noopener noreferrer"
-                target="_blank"
+              <h2
+                class="macro-product-name"
               >
-                <div
-                  id="manual-tip"
-                >
-                   
-                  <span>
-                    Download Manual
-                  </span>
-                </div>
-                <img
-                  alt="Manual"
-                  src="manual.svg"
-                />
-              </a>
-              <a
-                data-for="drawings-tip"
-                data-tip="true"
-                href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
-                rel="noopener noreferrer"
-                target="_blank"
+                FAKE_NAME
+              </h2>
+              <div
+                class="sc-gtssRu hDnYhE"
               >
-                <div
-                  id="drawings-tip"
+                <a
+                  data-for="manual-tip"
+                  data-tip="true"
+                  href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
-                   
-                  <span>
-                    Download Drawings
-                  </span>
-                </div>
-                <img
-                  alt="Drawings"
-                  src="drawings.svg"
-                />
-              </a>
+                  <div
+                    id="manual-tip"
+                  >
+                     
+                    <span>
+                      Download Manual
+                    </span>
+                  </div>
+                  <img
+                    alt="Manual"
+                    src="manual.svg"
+                  />
+                </a>
+                <a
+                  data-for="drawings-tip"
+                  data-tip="true"
+                  href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div
+                    id="drawings-tip"
+                  >
+                     
+                    <span>
+                      Download Drawings
+                    </span>
+                  </div>
+                  <img
+                    alt="Drawings"
+                    src="drawings.svg"
+                  />
+                </a>
+              </div>
             </div>
+            <img
+              alt="Product with id: 1"
+              class="macro-product-image"
+              src=""
+            />
           </div>
-          <img
-            alt="Product with id: 1"
-            class="macro-product-image"
-            src=""
-          />
         </div>
-        <footer>
+        <footer
+          class="sc-iCoHVE jCdbuC"
+        >
           Icons made by
            
           <a
@@ -204,148 +210,154 @@ describe('MacroProductContainer logic test ', () => {
 
     expect(container.firstChild).toMatchInlineSnapshot(`
       <div
-        class="sc-iCoHVE jyXeJQ"
+        class="sc-fujyUd pfnpL"
       >
         <div
-          class="sc-dlnjPT emuUqz macro-product"
+          class="macro-product-container"
         >
           <div
-            class="macro-product-name-downloads"
-          >
-            <h2
-              class="macro-product-name"
-            >
-              FAKE_NAME
-            </h2>
-            <div
-              class="sc-gtssRu hDnYhE"
-            >
-              <a
-                data-for="manual-tip"
-                data-tip="true"
-                href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <div
-                  id="manual-tip"
-                >
-                   
-                  <span>
-                    Download Manual
-                  </span>
-                </div>
-                <img
-                  alt="Manual"
-                  src="manual.svg"
-                />
-              </a>
-              <a
-                data-for="drawings-tip"
-                data-tip="true"
-                href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <div
-                  id="drawings-tip"
-                >
-                   
-                  <span>
-                    Download Drawings
-                  </span>
-                </div>
-                <img
-                  alt="Drawings"
-                  src="drawings.svg"
-                />
-              </a>
-            </div>
-          </div>
-          <img
-            alt="Product with id: 1"
-            class="macro-product-image"
-            src="FAKE_THUMB"
-          />
-        </div>
-        <div
-          class="sc-jSFkmK kWiBnt subparts-table"
-        >
-          <div
-            class="scroll-container"
+            class="sc-dlnjPT bEyrhE macro-product"
           >
             <div
-              class="table-title-icon"
+              class="macro-product-name-downloads"
             >
               <h2
-                class="title"
+                class="macro-product-name"
               >
-                Spare parts
+                FAKE_NAME
               </h2>
-              <svg
-                class="icon"
+              <div
+                class="sc-gtssRu hDnYhE"
               >
-                spareParts.svg
-              </svg>
+                <a
+                  data-for="manual-tip"
+                  data-tip="true"
+                  href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div
+                    id="manual-tip"
+                  >
+                     
+                    <span>
+                      Download Manual
+                    </span>
+                  </div>
+                  <img
+                    alt="Manual"
+                    src="manual.svg"
+                  />
+                </a>
+                <a
+                  data-for="drawings-tip"
+                  data-tip="true"
+                  href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div
+                    id="drawings-tip"
+                  >
+                     
+                    <span>
+                      Download Drawings
+                    </span>
+                  </div>
+                  <img
+                    alt="Drawings"
+                    src="drawings.svg"
+                  />
+                </a>
+              </div>
             </div>
-            <table
-              class="table"
+            <img
+              alt="Product with id: 1"
+              class="macro-product-image"
+              src="FAKE_THUMB"
+            />
+          </div>
+          <div
+            class="sc-jSFkmK kWiBnt subparts-table"
+          >
+            <div
+              class="scroll-container"
             >
-              <thead>
-                <tr>
-                  <th
-                    class="sc-hKFyIo bGlfBr"
-                  >
-                    id
-                  </th>
-                  <th
-                    class="sc-hKFyIo bGlfBr"
-                  >
-                    name
-                  </th>
-                  <th
-                    class="sc-hKFyIo bGlfBr"
-                  >
-                    quantity
-                  </th>
-                  <th
-                    class="sc-hKFyIo bGlfBr"
-                  >
-                    image
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td
-                    class="sc-hKFyIo bGlfBr"
-                  >
-                    2
-                  </td>
-                  <td
-                    class="sc-hKFyIo bGlfBr"
-                  >
-                    FAKE_SUBPART_NAME
-                  </td>
-                  <td
-                    class="sc-hKFyIo bGlfBr"
-                  >
-                    1
-                  </td>
-                  <td
-                    class="sc-eCApGN eosXfu"
-                  >
-                    <img
-                      alt="Subpart with id: 2"
-                      src="FAKE_SUBPART_THUMB"
-                    />
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+              <div
+                class="table-title-icon"
+              >
+                <h2
+                  class="title"
+                >
+                  Spare parts
+                </h2>
+                <svg
+                  class="icon"
+                >
+                  spareParts.svg
+                </svg>
+              </div>
+              <table
+                class="table"
+              >
+                <thead>
+                  <tr>
+                    <th
+                      class="sc-hKFyIo bGlfBr"
+                    >
+                      id
+                    </th>
+                    <th
+                      class="sc-hKFyIo bGlfBr"
+                    >
+                      name
+                    </th>
+                    <th
+                      class="sc-hKFyIo bGlfBr"
+                    >
+                      quantity
+                    </th>
+                    <th
+                      class="sc-hKFyIo bGlfBr"
+                    >
+                      image
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td
+                      class="sc-hKFyIo bGlfBr"
+                    >
+                      2
+                    </td>
+                    <td
+                      class="sc-hKFyIo bGlfBr"
+                    >
+                      FAKE_SUBPART_NAME
+                    </td>
+                    <td
+                      class="sc-hKFyIo bGlfBr"
+                    >
+                      1
+                    </td>
+                    <td
+                      class="sc-eCApGN eosXfu"
+                    >
+                      <img
+                        alt="Subpart with id: 2"
+                        src="FAKE_SUBPART_THUMB"
+                      />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
-        <footer>
+        <footer
+          class="sc-iCoHVE jCdbuC"
+        >
           Icons made by
            
           <a
@@ -398,71 +410,77 @@ describe('MacroProductContainer logic test ', () => {
 
     expect(container.firstChild).toMatchInlineSnapshot(`
       <div
-        class="sc-iCoHVE jyXeJQ"
+        class="sc-fujyUd pfnpL"
       >
         <div
-          class="sc-dlnjPT emuUqz macro-product"
+          class="macro-product-container"
         >
           <div
-            class="macro-product-name-downloads"
+            class="sc-dlnjPT bEyrhE macro-product"
           >
-            <h2
-              class="macro-product-name"
-            >
-              FAKE_NAME
-            </h2>
             <div
-              class="sc-gtssRu hDnYhE"
+              class="macro-product-name-downloads"
             >
-              <a
-                data-for="manual-tip"
-                data-tip="true"
-                href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
-                rel="noopener noreferrer"
-                target="_blank"
+              <h2
+                class="macro-product-name"
               >
-                <div
-                  id="manual-tip"
-                >
-                   
-                  <span>
-                    Download Manual
-                  </span>
-                </div>
-                <img
-                  alt="Manual"
-                  src="manual.svg"
-                />
-              </a>
-              <a
-                data-for="drawings-tip"
-                data-tip="true"
-                href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
-                rel="noopener noreferrer"
-                target="_blank"
+                FAKE_NAME
+              </h2>
+              <div
+                class="sc-gtssRu hDnYhE"
               >
-                <div
-                  id="drawings-tip"
+                <a
+                  data-for="manual-tip"
+                  data-tip="true"
+                  href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
-                   
-                  <span>
-                    Download Drawings
-                  </span>
-                </div>
-                <img
-                  alt="Drawings"
-                  src="drawings.svg"
-                />
-              </a>
+                  <div
+                    id="manual-tip"
+                  >
+                     
+                    <span>
+                      Download Manual
+                    </span>
+                  </div>
+                  <img
+                    alt="Manual"
+                    src="manual.svg"
+                  />
+                </a>
+                <a
+                  data-for="drawings-tip"
+                  data-tip="true"
+                  href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div
+                    id="drawings-tip"
+                  >
+                     
+                    <span>
+                      Download Drawings
+                    </span>
+                  </div>
+                  <img
+                    alt="Drawings"
+                    src="drawings.svg"
+                  />
+                </a>
+              </div>
             </div>
+            <img
+              alt="Product with id: 1"
+              class="macro-product-image"
+              src="FAKE_THUMB"
+            />
           </div>
-          <img
-            alt="Product with id: 1"
-            class="macro-product-image"
-            src="FAKE_THUMB"
-          />
         </div>
-        <footer>
+        <footer
+          class="sc-iCoHVE jCdbuC"
+        >
           Icons made by
            
           <a

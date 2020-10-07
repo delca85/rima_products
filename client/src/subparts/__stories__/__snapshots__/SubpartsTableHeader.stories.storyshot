@@ -3,22 +3,22 @@
 exports[`Storyshots SubpartsTableHeader Subparts Table Header Default 1`] = `
 <tr>
   <th
-    className="sc-gKAblj clqaqU"
+    className="sc-iCoHVE fPGLWj"
   >
     id
   </th>
   <th
-    className="sc-gKAblj clqaqU"
+    className="sc-iCoHVE fPGLWj"
   >
     name
   </th>
   <th
-    className="sc-gKAblj clqaqU"
+    className="sc-iCoHVE fPGLWj"
   >
     quantity
   </th>
   <th
-    className="sc-gKAblj clqaqU"
+    className="sc-iCoHVE fPGLWj"
   >
     image
   </th>

@@ -5,22 +5,22 @@ exports[`Storyshots Subpart Subpart Full 1`] = `
   <tbody>
     <tr>
       <td
-        className="sc-gKAblj clqaqU"
+        className="sc-iCoHVE fPGLWj"
       >
         2
       </td>
       <td
-        className="sc-gKAblj clqaqU"
+        className="sc-iCoHVE fPGLWj"
       >
         screw
       </td>
       <td
-        className="sc-gKAblj clqaqU"
+        className="sc-iCoHVE fPGLWj"
       >
         50
       </td>
       <td
-        className="sc-iCoHVE fvxUuy"
+        className="sc-fujyUd jrVGjZ"
       >
         <img
           alt="Subpart with id: 2"
@@ -37,22 +37,22 @@ exports[`Storyshots Subpart Subpart No Img 1`] = `
   <tbody>
     <tr>
       <td
-        className="sc-gKAblj clqaqU"
+        className="sc-iCoHVE fPGLWj"
       >
         2
       </td>
       <td
-        className="sc-gKAblj clqaqU"
+        className="sc-iCoHVE fPGLWj"
       >
         screw lorem ipsum scripta manent verba volant
       </td>
       <td
-        className="sc-gKAblj clqaqU"
+        className="sc-iCoHVE fPGLWj"
       >
         250
       </td>
       <td
-        className="sc-iCoHVE fvxUuy"
+        className="sc-fujyUd jrVGjZ"
       />
     </tr>
   </tbody>
@@ -64,22 +64,22 @@ exports[`Storyshots Subpart Subpart No Quantity 1`] = `
   <tbody>
     <tr>
       <td
-        className="sc-gKAblj clqaqU"
+        className="sc-iCoHVE fPGLWj"
       >
         2
       </td>
       <td
-        className="sc-gKAblj clqaqU"
+        className="sc-iCoHVE fPGLWj"
       >
         screw lorem ipsum scripta manent verba volant
       </td>
       <td
-        className="sc-gKAblj clqaqU"
+        className="sc-iCoHVE fPGLWj"
       >
         1
       </td>
       <td
-        className="sc-iCoHVE fvxUuy"
+        className="sc-fujyUd jrVGjZ"
       >
         <img
           alt="Subpart with id: 2"
@@ -96,22 +96,22 @@ exports[`Storyshots Subpart Subpart With Long Name 1`] = `
   <tbody>
     <tr>
       <td
-        className="sc-gKAblj clqaqU"
+        className="sc-iCoHVE fPGLWj"
       >
         2
       </td>
       <td
-        className="sc-gKAblj clqaqU"
+        className="sc-iCoHVE fPGLWj"
       >
         screw lorem ipsum scripta manent verba volant
       </td>
       <td
-        className="sc-gKAblj clqaqU"
+        className="sc-iCoHVE fPGLWj"
       >
         250
       </td>
       <td
-        className="sc-iCoHVE fvxUuy"
+        className="sc-fujyUd jrVGjZ"
       >
         <img
           alt="Subpart with id: 2"

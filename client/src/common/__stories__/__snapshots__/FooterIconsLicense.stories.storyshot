@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots FooterIconsLicense Footer Icons License Default 1`] = `
+<footer
+  className="sc-gtssRu jHaVDc"
+>
+  Icons made by
+   
+  <a
+    href="https://www.flaticon.com/authors/freepik"
+    title="Freepik"
+  >
+    Freepik
+  </a>
+   
+  from
+  <a
+    href="https://www.flaticon.com/"
+    title="Flaticon"
+  >
+     
+    www.flaticon.com
+  </a>
+</footer>
+`;

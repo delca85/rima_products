@@ -2,7 +2,7 @@
 
 exports[`Storyshots NoMatchingRoute No Match Default 1`] = `
 <div
-  className="sc-hKFyIo iYtDSR"
+  className="sc-eCApGN QRypd"
 >
   <span>
     No page with this url: /FAKE_URL!

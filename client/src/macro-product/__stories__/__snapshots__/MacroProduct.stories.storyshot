@@ -2,7 +2,7 @@
 
 exports[`Storyshots MacroProduct Macro Product Default 1`] = `
 <div
-  className="sc-jSFkmK eNiFKJ"
+  className="sc-gKAblj fcDYJF"
 >
   <div
     className="macro-product-name-downloads"
@@ -13,7 +13,7 @@ exports[`Storyshots MacroProduct Macro Product Default 1`] = `
       rail brake
     </h2>
     <div
-      className="sc-eCApGN svCya"
+      className="sc-jSFkmK cQjiJW"
     >
       <a
         data-for="manual-tip"
@@ -23,7 +23,7 @@ exports[`Storyshots MacroProduct Macro Product Default 1`] = `
         target="_blank"
       >
         <div
-          className="__react_component_tooltip t380f995c-0fdd-497f-8c13-a79b98eae814 place-top type-dark"
+          className="__react_component_tooltip t6b07c7a1-5827-419b-a102-eb49f38dfbe7 place-top type-dark"
           data-id="tooltip"
           id="manual-tip"
         >
@@ -31,19 +31,19 @@ exports[`Storyshots MacroProduct Macro Product Default 1`] = `
             dangerouslySetInnerHTML={
               Object {
                 "__html": "
-  	.t380f995c-0fdd-497f-8c13-a79b98eae814 {
+  	.t6b07c7a1-5827-419b-a102-eb49f38dfbe7 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t380f995c-0fdd-497f-8c13-a79b98eae814.place-top {
+  	.t6b07c7a1-5827-419b-a102-eb49f38dfbe7.place-top {
         margin-top: -10px;
     }
-    .t380f995c-0fdd-497f-8c13-a79b98eae814.place-top::before {
+    .t6b07c7a1-5827-419b-a102-eb49f38dfbe7.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t380f995c-0fdd-497f-8c13-a79b98eae814.place-top::after {
+    .t6b07c7a1-5827-419b-a102-eb49f38dfbe7.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -54,13 +54,13 @@ exports[`Storyshots MacroProduct Macro Product Default 1`] = `
         border-top-width: 6px;
     }
 
-    .t380f995c-0fdd-497f-8c13-a79b98eae814.place-bottom {
+    .t6b07c7a1-5827-419b-a102-eb49f38dfbe7.place-bottom {
         margin-top: 10px;
     }
-    .t380f995c-0fdd-497f-8c13-a79b98eae814.place-bottom::before {
+    .t6b07c7a1-5827-419b-a102-eb49f38dfbe7.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t380f995c-0fdd-497f-8c13-a79b98eae814.place-bottom::after {
+    .t6b07c7a1-5827-419b-a102-eb49f38dfbe7.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -71,13 +71,13 @@ exports[`Storyshots MacroProduct Macro Product Default 1`] = `
         border-bottom-width: 6px;
     }
 
-    .t380f995c-0fdd-497f-8c13-a79b98eae814.place-left {
+    .t6b07c7a1-5827-419b-a102-eb49f38dfbe7.place-left {
         margin-left: -10px;
     }
-    .t380f995c-0fdd-497f-8c13-a79b98eae814.place-left::before {
+    .t6b07c7a1-5827-419b-a102-eb49f38dfbe7.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t380f995c-0fdd-497f-8c13-a79b98eae814.place-left::after {
+    .t6b07c7a1-5827-419b-a102-eb49f38dfbe7.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -88,13 +88,13 @@ exports[`Storyshots MacroProduct Macro Product Default 1`] = `
         border-left-width: 6px;
     }
 
-    .t380f995c-0fdd-497f-8c13-a79b98eae814.place-right {
+    .t6b07c7a1-5827-419b-a102-eb49f38dfbe7.place-right {
         margin-left: 10px;
     }
-    .t380f995c-0fdd-497f-8c13-a79b98eae814.place-right::before {
+    .t6b07c7a1-5827-419b-a102-eb49f38dfbe7.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t380f995c-0fdd-497f-8c13-a79b98eae814.place-right::after {
+    .t6b07c7a1-5827-419b-a102-eb49f38dfbe7.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -125,7 +125,7 @@ exports[`Storyshots MacroProduct Macro Product Default 1`] = `
         target="_blank"
       >
         <div
-          className="__react_component_tooltip t49358f0a-3c1b-49aa-a77d-717dfd4ff306 place-top type-dark"
+          className="__react_component_tooltip t9d79f6ac-a499-4b13-820f-2e8534f4f524 place-top type-dark"
           data-id="tooltip"
           id="drawings-tip"
         >
@@ -133,19 +133,19 @@ exports[`Storyshots MacroProduct Macro Product Default 1`] = `
             dangerouslySetInnerHTML={
               Object {
                 "__html": "
-  	.t49358f0a-3c1b-49aa-a77d-717dfd4ff306 {
+  	.t9d79f6ac-a499-4b13-820f-2e8534f4f524 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t49358f0a-3c1b-49aa-a77d-717dfd4ff306.place-top {
+  	.t9d79f6ac-a499-4b13-820f-2e8534f4f524.place-top {
         margin-top: -10px;
     }
-    .t49358f0a-3c1b-49aa-a77d-717dfd4ff306.place-top::before {
+    .t9d79f6ac-a499-4b13-820f-2e8534f4f524.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t49358f0a-3c1b-49aa-a77d-717dfd4ff306.place-top::after {
+    .t9d79f6ac-a499-4b13-820f-2e8534f4f524.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -156,13 +156,13 @@ exports[`Storyshots MacroProduct Macro Product Default 1`] = `
         border-top-width: 6px;
     }
 
-    .t49358f0a-3c1b-49aa-a77d-717dfd4ff306.place-bottom {
+    .t9d79f6ac-a499-4b13-820f-2e8534f4f524.place-bottom {
         margin-top: 10px;
     }
-    .t49358f0a-3c1b-49aa-a77d-717dfd4ff306.place-bottom::before {
+    .t9d79f6ac-a499-4b13-820f-2e8534f4f524.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t49358f0a-3c1b-49aa-a77d-717dfd4ff306.place-bottom::after {
+    .t9d79f6ac-a499-4b13-820f-2e8534f4f524.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -173,13 +173,13 @@ exports[`Storyshots MacroProduct Macro Product Default 1`] = `
         border-bottom-width: 6px;
     }
 
-    .t49358f0a-3c1b-49aa-a77d-717dfd4ff306.place-left {
+    .t9d79f6ac-a499-4b13-820f-2e8534f4f524.place-left {
         margin-left: -10px;
     }
-    .t49358f0a-3c1b-49aa-a77d-717dfd4ff306.place-left::before {
+    .t9d79f6ac-a499-4b13-820f-2e8534f4f524.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t49358f0a-3c1b-49aa-a77d-717dfd4ff306.place-left::after {
+    .t9d79f6ac-a499-4b13-820f-2e8534f4f524.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -190,13 +190,13 @@ exports[`Storyshots MacroProduct Macro Product Default 1`] = `
         border-left-width: 6px;
     }
 
-    .t49358f0a-3c1b-49aa-a77d-717dfd4ff306.place-right {
+    .t9d79f6ac-a499-4b13-820f-2e8534f4f524.place-right {
         margin-left: 10px;
     }
-    .t49358f0a-3c1b-49aa-a77d-717dfd4ff306.place-right::before {
+    .t9d79f6ac-a499-4b13-820f-2e8534f4f524.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t49358f0a-3c1b-49aa-a77d-717dfd4ff306.place-right::after {
+    .t9d79f6ac-a499-4b13-820f-2e8534f4f524.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -231,7 +231,7 @@ exports[`Storyshots MacroProduct Macro Product Default 1`] = `
 
 exports[`Storyshots MacroProduct Macro Product No Thumb 1`] = `
 <div
-  className="sc-jSFkmK eNiFKJ"
+  className="sc-gKAblj fcDYJF"
 >
   <div
     className="macro-product-name-downloads"
@@ -242,7 +242,7 @@ exports[`Storyshots MacroProduct Macro Product No Thumb 1`] = `
       rail brake
     </h2>
     <div
-      className="sc-eCApGN svCya"
+      className="sc-jSFkmK cQjiJW"
     >
       <a
         data-for="manual-tip"
@@ -252,7 +252,7 @@ exports[`Storyshots MacroProduct Macro Product No Thumb 1`] = `
         target="_blank"
       >
         <div
-          className="__react_component_tooltip t3b125ba8-3d4b-4613-9319-771daf2230aa place-top type-dark"
+          className="__react_component_tooltip t64b36cee-ec0c-4e42-8dbd-1391d5d2a748 place-top type-dark"
           data-id="tooltip"
           id="manual-tip"
         >
@@ -260,19 +260,19 @@ exports[`Storyshots MacroProduct Macro Product No Thumb 1`] = `
             dangerouslySetInnerHTML={
               Object {
                 "__html": "
-  	.t3b125ba8-3d4b-4613-9319-771daf2230aa {
+  	.t64b36cee-ec0c-4e42-8dbd-1391d5d2a748 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t3b125ba8-3d4b-4613-9319-771daf2230aa.place-top {
+  	.t64b36cee-ec0c-4e42-8dbd-1391d5d2a748.place-top {
         margin-top: -10px;
     }
-    .t3b125ba8-3d4b-4613-9319-771daf2230aa.place-top::before {
+    .t64b36cee-ec0c-4e42-8dbd-1391d5d2a748.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t3b125ba8-3d4b-4613-9319-771daf2230aa.place-top::after {
+    .t64b36cee-ec0c-4e42-8dbd-1391d5d2a748.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -283,13 +283,13 @@ exports[`Storyshots MacroProduct Macro Product No Thumb 1`] = `
         border-top-width: 6px;
     }
 
-    .t3b125ba8-3d4b-4613-9319-771daf2230aa.place-bottom {
+    .t64b36cee-ec0c-4e42-8dbd-1391d5d2a748.place-bottom {
         margin-top: 10px;
     }
-    .t3b125ba8-3d4b-4613-9319-771daf2230aa.place-bottom::before {
+    .t64b36cee-ec0c-4e42-8dbd-1391d5d2a748.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t3b125ba8-3d4b-4613-9319-771daf2230aa.place-bottom::after {
+    .t64b36cee-ec0c-4e42-8dbd-1391d5d2a748.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -300,13 +300,13 @@ exports[`Storyshots MacroProduct Macro Product No Thumb 1`] = `
         border-bottom-width: 6px;
     }
 
-    .t3b125ba8-3d4b-4613-9319-771daf2230aa.place-left {
+    .t64b36cee-ec0c-4e42-8dbd-1391d5d2a748.place-left {
         margin-left: -10px;
     }
-    .t3b125ba8-3d4b-4613-9319-771daf2230aa.place-left::before {
+    .t64b36cee-ec0c-4e42-8dbd-1391d5d2a748.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t3b125ba8-3d4b-4613-9319-771daf2230aa.place-left::after {
+    .t64b36cee-ec0c-4e42-8dbd-1391d5d2a748.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -317,13 +317,13 @@ exports[`Storyshots MacroProduct Macro Product No Thumb 1`] = `
         border-left-width: 6px;
     }
 
-    .t3b125ba8-3d4b-4613-9319-771daf2230aa.place-right {
+    .t64b36cee-ec0c-4e42-8dbd-1391d5d2a748.place-right {
         margin-left: 10px;
     }
-    .t3b125ba8-3d4b-4613-9319-771daf2230aa.place-right::before {
+    .t64b36cee-ec0c-4e42-8dbd-1391d5d2a748.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t3b125ba8-3d4b-4613-9319-771daf2230aa.place-right::after {
+    .t64b36cee-ec0c-4e42-8dbd-1391d5d2a748.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -354,7 +354,7 @@ exports[`Storyshots MacroProduct Macro Product No Thumb 1`] = `
         target="_blank"
       >
         <div
-          className="__react_component_tooltip tc006ed50-4726-49f7-89da-a4f974a47a97 place-top type-dark"
+          className="__react_component_tooltip t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14 place-top type-dark"
           data-id="tooltip"
           id="drawings-tip"
         >
@@ -362,19 +362,19 @@ exports[`Storyshots MacroProduct Macro Product No Thumb 1`] = `
             dangerouslySetInnerHTML={
               Object {
                 "__html": "
-  	.tc006ed50-4726-49f7-89da-a4f974a47a97 {
+  	.t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.tc006ed50-4726-49f7-89da-a4f974a47a97.place-top {
+  	.t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14.place-top {
         margin-top: -10px;
     }
-    .tc006ed50-4726-49f7-89da-a4f974a47a97.place-top::before {
+    .t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14.place-top::before {
         border-top: 8px solid transparent;
     }
-    .tc006ed50-4726-49f7-89da-a4f974a47a97.place-top::after {
+    .t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -385,13 +385,13 @@ exports[`Storyshots MacroProduct Macro Product No Thumb 1`] = `
         border-top-width: 6px;
     }
 
-    .tc006ed50-4726-49f7-89da-a4f974a47a97.place-bottom {
+    .t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14.place-bottom {
         margin-top: 10px;
     }
-    .tc006ed50-4726-49f7-89da-a4f974a47a97.place-bottom::before {
+    .t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .tc006ed50-4726-49f7-89da-a4f974a47a97.place-bottom::after {
+    .t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -402,13 +402,13 @@ exports[`Storyshots MacroProduct Macro Product No Thumb 1`] = `
         border-bottom-width: 6px;
     }
 
-    .tc006ed50-4726-49f7-89da-a4f974a47a97.place-left {
+    .t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14.place-left {
         margin-left: -10px;
     }
-    .tc006ed50-4726-49f7-89da-a4f974a47a97.place-left::before {
+    .t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14.place-left::before {
         border-left: 8px solid transparent;
     }
-    .tc006ed50-4726-49f7-89da-a4f974a47a97.place-left::after {
+    .t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -419,13 +419,13 @@ exports[`Storyshots MacroProduct Macro Product No Thumb 1`] = `
         border-left-width: 6px;
     }
 
-    .tc006ed50-4726-49f7-89da-a4f974a47a97.place-right {
+    .t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14.place-right {
         margin-left: 10px;
     }
-    .tc006ed50-4726-49f7-89da-a4f974a47a97.place-right::before {
+    .t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14.place-right::before {
         border-right: 8px solid transparent;
     }
-    .tc006ed50-4726-49f7-89da-a4f974a47a97.place-right::after {
+    .t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;

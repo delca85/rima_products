@@ -2,7 +2,7 @@
 
 exports[`Storyshots DownloadItems Download Items Default 1`] = `
 <div
-  className="sc-eCApGN svCya"
+  className="sc-jSFkmK cQjiJW"
 >
   <a
     data-for="manual-tip"
@@ -12,7 +12,7 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
     target="_blank"
   >
     <div
-      className="__react_component_tooltip t08c6d9b2-a41e-4069-8910-1e1fc24cc133 place-top type-dark"
+      className="__react_component_tooltip t1fc7de37-4501-4816-96de-74354dc3a499 place-top type-dark"
       data-id="tooltip"
       id="manual-tip"
     >
@@ -20,19 +20,19 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         dangerouslySetInnerHTML={
           Object {
             "__html": "
-  	.t08c6d9b2-a41e-4069-8910-1e1fc24cc133 {
+  	.t1fc7de37-4501-4816-96de-74354dc3a499 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t08c6d9b2-a41e-4069-8910-1e1fc24cc133.place-top {
+  	.t1fc7de37-4501-4816-96de-74354dc3a499.place-top {
         margin-top: -10px;
     }
-    .t08c6d9b2-a41e-4069-8910-1e1fc24cc133.place-top::before {
+    .t1fc7de37-4501-4816-96de-74354dc3a499.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t08c6d9b2-a41e-4069-8910-1e1fc24cc133.place-top::after {
+    .t1fc7de37-4501-4816-96de-74354dc3a499.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -43,13 +43,13 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         border-top-width: 6px;
     }
 
-    .t08c6d9b2-a41e-4069-8910-1e1fc24cc133.place-bottom {
+    .t1fc7de37-4501-4816-96de-74354dc3a499.place-bottom {
         margin-top: 10px;
     }
-    .t08c6d9b2-a41e-4069-8910-1e1fc24cc133.place-bottom::before {
+    .t1fc7de37-4501-4816-96de-74354dc3a499.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t08c6d9b2-a41e-4069-8910-1e1fc24cc133.place-bottom::after {
+    .t1fc7de37-4501-4816-96de-74354dc3a499.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -60,13 +60,13 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         border-bottom-width: 6px;
     }
 
-    .t08c6d9b2-a41e-4069-8910-1e1fc24cc133.place-left {
+    .t1fc7de37-4501-4816-96de-74354dc3a499.place-left {
         margin-left: -10px;
     }
-    .t08c6d9b2-a41e-4069-8910-1e1fc24cc133.place-left::before {
+    .t1fc7de37-4501-4816-96de-74354dc3a499.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t08c6d9b2-a41e-4069-8910-1e1fc24cc133.place-left::after {
+    .t1fc7de37-4501-4816-96de-74354dc3a499.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -77,13 +77,13 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         border-left-width: 6px;
     }
 
-    .t08c6d9b2-a41e-4069-8910-1e1fc24cc133.place-right {
+    .t1fc7de37-4501-4816-96de-74354dc3a499.place-right {
         margin-left: 10px;
     }
-    .t08c6d9b2-a41e-4069-8910-1e1fc24cc133.place-right::before {
+    .t1fc7de37-4501-4816-96de-74354dc3a499.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t08c6d9b2-a41e-4069-8910-1e1fc24cc133.place-right::after {
+    .t1fc7de37-4501-4816-96de-74354dc3a499.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -114,7 +114,7 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
     target="_blank"
   >
     <div
-      className="__react_component_tooltip t397ae972-4b05-4d04-823c-c550b53bfca6 place-top type-dark"
+      className="__react_component_tooltip t99245539-39b6-4db6-a3a9-2c8ad9feee8a place-top type-dark"
       data-id="tooltip"
       id="drawings-tip"
     >
@@ -122,19 +122,19 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         dangerouslySetInnerHTML={
           Object {
             "__html": "
-  	.t397ae972-4b05-4d04-823c-c550b53bfca6 {
+  	.t99245539-39b6-4db6-a3a9-2c8ad9feee8a {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t397ae972-4b05-4d04-823c-c550b53bfca6.place-top {
+  	.t99245539-39b6-4db6-a3a9-2c8ad9feee8a.place-top {
         margin-top: -10px;
     }
-    .t397ae972-4b05-4d04-823c-c550b53bfca6.place-top::before {
+    .t99245539-39b6-4db6-a3a9-2c8ad9feee8a.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t397ae972-4b05-4d04-823c-c550b53bfca6.place-top::after {
+    .t99245539-39b6-4db6-a3a9-2c8ad9feee8a.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -145,13 +145,13 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         border-top-width: 6px;
     }
 
-    .t397ae972-4b05-4d04-823c-c550b53bfca6.place-bottom {
+    .t99245539-39b6-4db6-a3a9-2c8ad9feee8a.place-bottom {
         margin-top: 10px;
     }
-    .t397ae972-4b05-4d04-823c-c550b53bfca6.place-bottom::before {
+    .t99245539-39b6-4db6-a3a9-2c8ad9feee8a.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t397ae972-4b05-4d04-823c-c550b53bfca6.place-bottom::after {
+    .t99245539-39b6-4db6-a3a9-2c8ad9feee8a.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -162,13 +162,13 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         border-bottom-width: 6px;
     }
 
-    .t397ae972-4b05-4d04-823c-c550b53bfca6.place-left {
+    .t99245539-39b6-4db6-a3a9-2c8ad9feee8a.place-left {
         margin-left: -10px;
     }
-    .t397ae972-4b05-4d04-823c-c550b53bfca6.place-left::before {
+    .t99245539-39b6-4db6-a3a9-2c8ad9feee8a.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t397ae972-4b05-4d04-823c-c550b53bfca6.place-left::after {
+    .t99245539-39b6-4db6-a3a9-2c8ad9feee8a.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -179,13 +179,13 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         border-left-width: 6px;
     }
 
-    .t397ae972-4b05-4d04-823c-c550b53bfca6.place-right {
+    .t99245539-39b6-4db6-a3a9-2c8ad9feee8a.place-right {
         margin-left: 10px;
     }
-    .t397ae972-4b05-4d04-823c-c550b53bfca6.place-right::before {
+    .t99245539-39b6-4db6-a3a9-2c8ad9feee8a.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t397ae972-4b05-4d04-823c-c550b53bfca6.place-right::after {
+    .t99245539-39b6-4db6-a3a9-2c8ad9feee8a.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;

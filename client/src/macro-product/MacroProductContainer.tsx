@@ -8,6 +8,7 @@ import Loading from '../common/Loading';
 import MacroProduct from './MacroProduct';
 import SubpartsTable from '../subparts/SubpartsTable';
 import Error from '../common/Error';
+import FooterIconLicense from '../common/FooterIconsLicense';
 
 const MacroProductContainerRaw = ({ className }: IRimaComponentProps) => {
   const { id: paramId } = useParams<IRouteParams>();
@@ -34,33 +35,26 @@ const MacroProductContainerRaw = ({ className }: IRimaComponentProps) => {
 
   return (
     <div className={className}>
-      <MacroProduct className="macro-product" id={id} name={part.name} thumb={thumb} />
-      <SubpartsTable className="subparts-table" subparts={subparts} />
-      <footer>
-        Icons made by{' '}
-        <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
-          Freepik
-        </a>{' '}
-        from
-        <a href="https://www.flaticon.com/" title="Flaticon">
-          {' '}
-          www.flaticon.com
-        </a>
-      </footer>
+      <div className="macro-product-container">
+        <MacroProduct className="macro-product" id={id} name={part.name} thumb={thumb} />
+        <SubpartsTable className="subparts-table" subparts={subparts} />
+      </div>
+      <FooterIconLicense />
     </div>
   );
 };
 
 const MacroProductContainer = styled(MacroProductContainerRaw)`
-  max-width: 100vw;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  .macro-product {
-    grid-column: 1 / 3;
-  }
-  footer {
-    position: fixed;
-    bottom: 0;
+  height: 100vh;
+  .macro-product-container {
+    height: 100%;
+    max-width: 100vw;
+    display: grid;
+    margin: 20px 10px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    .macro-product {
+      grid-column: 1 / 3;
+    }
   }
 `;
 
