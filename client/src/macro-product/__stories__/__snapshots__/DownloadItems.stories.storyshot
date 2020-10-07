@@ -12,7 +12,7 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
     target="_blank"
   >
     <div
-      className="__react_component_tooltip t1fc7de37-4501-4816-96de-74354dc3a499 place-top type-dark"
+      className="__react_component_tooltip t7c5a6721-4943-4853-b305-f491330a930f place-top type-dark"
       data-id="tooltip"
       id="manual-tip"
     >
@@ -20,19 +20,19 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         dangerouslySetInnerHTML={
           Object {
             "__html": "
-  	.t1fc7de37-4501-4816-96de-74354dc3a499 {
+  	.t7c5a6721-4943-4853-b305-f491330a930f {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t1fc7de37-4501-4816-96de-74354dc3a499.place-top {
+  	.t7c5a6721-4943-4853-b305-f491330a930f.place-top {
         margin-top: -10px;
     }
-    .t1fc7de37-4501-4816-96de-74354dc3a499.place-top::before {
+    .t7c5a6721-4943-4853-b305-f491330a930f.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t1fc7de37-4501-4816-96de-74354dc3a499.place-top::after {
+    .t7c5a6721-4943-4853-b305-f491330a930f.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -43,13 +43,13 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         border-top-width: 6px;
     }
 
-    .t1fc7de37-4501-4816-96de-74354dc3a499.place-bottom {
+    .t7c5a6721-4943-4853-b305-f491330a930f.place-bottom {
         margin-top: 10px;
     }
-    .t1fc7de37-4501-4816-96de-74354dc3a499.place-bottom::before {
+    .t7c5a6721-4943-4853-b305-f491330a930f.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t1fc7de37-4501-4816-96de-74354dc3a499.place-bottom::after {
+    .t7c5a6721-4943-4853-b305-f491330a930f.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -60,13 +60,13 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         border-bottom-width: 6px;
     }
 
-    .t1fc7de37-4501-4816-96de-74354dc3a499.place-left {
+    .t7c5a6721-4943-4853-b305-f491330a930f.place-left {
         margin-left: -10px;
     }
-    .t1fc7de37-4501-4816-96de-74354dc3a499.place-left::before {
+    .t7c5a6721-4943-4853-b305-f491330a930f.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t1fc7de37-4501-4816-96de-74354dc3a499.place-left::after {
+    .t7c5a6721-4943-4853-b305-f491330a930f.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -77,13 +77,13 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         border-left-width: 6px;
     }
 
-    .t1fc7de37-4501-4816-96de-74354dc3a499.place-right {
+    .t7c5a6721-4943-4853-b305-f491330a930f.place-right {
         margin-left: 10px;
     }
-    .t1fc7de37-4501-4816-96de-74354dc3a499.place-right::before {
+    .t7c5a6721-4943-4853-b305-f491330a930f.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t1fc7de37-4501-4816-96de-74354dc3a499.place-right::after {
+    .t7c5a6721-4943-4853-b305-f491330a930f.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -114,7 +114,7 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
     target="_blank"
   >
     <div
-      className="__react_component_tooltip t99245539-39b6-4db6-a3a9-2c8ad9feee8a place-top type-dark"
+      className="__react_component_tooltip t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c place-top type-dark"
       data-id="tooltip"
       id="drawings-tip"
     >
@@ -122,19 +122,19 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         dangerouslySetInnerHTML={
           Object {
             "__html": "
-  	.t99245539-39b6-4db6-a3a9-2c8ad9feee8a {
+  	.t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t99245539-39b6-4db6-a3a9-2c8ad9feee8a.place-top {
+  	.t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c.place-top {
         margin-top: -10px;
     }
-    .t99245539-39b6-4db6-a3a9-2c8ad9feee8a.place-top::before {
+    .t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t99245539-39b6-4db6-a3a9-2c8ad9feee8a.place-top::after {
+    .t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -145,13 +145,13 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         border-top-width: 6px;
     }
 
-    .t99245539-39b6-4db6-a3a9-2c8ad9feee8a.place-bottom {
+    .t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c.place-bottom {
         margin-top: 10px;
     }
-    .t99245539-39b6-4db6-a3a9-2c8ad9feee8a.place-bottom::before {
+    .t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t99245539-39b6-4db6-a3a9-2c8ad9feee8a.place-bottom::after {
+    .t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -162,13 +162,13 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         border-bottom-width: 6px;
     }
 
-    .t99245539-39b6-4db6-a3a9-2c8ad9feee8a.place-left {
+    .t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c.place-left {
         margin-left: -10px;
     }
-    .t99245539-39b6-4db6-a3a9-2c8ad9feee8a.place-left::before {
+    .t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t99245539-39b6-4db6-a3a9-2c8ad9feee8a.place-left::after {
+    .t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -179,13 +179,13 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         border-left-width: 6px;
     }
 
-    .t99245539-39b6-4db6-a3a9-2c8ad9feee8a.place-right {
+    .t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c.place-right {
         margin-left: 10px;
     }
-    .t99245539-39b6-4db6-a3a9-2c8ad9feee8a.place-right::before {
+    .t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t99245539-39b6-4db6-a3a9-2c8ad9feee8a.place-right::after {
+    .t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;

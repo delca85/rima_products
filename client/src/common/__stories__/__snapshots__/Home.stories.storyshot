@@ -4,8 +4,11 @@ exports[`Storyshots Home Home Default 1`] = `
 <div
   className="sc-dlnjPT fzBuCj"
 >
-  <span>
-    Under construction...
-  </span>
+  <a
+    href="/macro_product/1"
+    onClick={[Function]}
+  >
+    Macro product with id: 1
+  </a>
 </div>
 `;

@@ -1,10 +1,16 @@
 import { default as React } from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { IRimaComponentProps } from '../types/component.types';
 
 const HomeRaw = ({ className }: IRimaComponentProps) => (
   <div className={className}>
-    <span>Under construction...</span>
+    <Link
+      to={{
+        pathname: '/macro_product/1',
+      }}>
+      Macro product with id: 1
+    </Link>
   </div>
 );
 

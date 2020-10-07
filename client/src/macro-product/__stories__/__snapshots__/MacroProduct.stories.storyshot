@@ -23,7 +23,7 @@ exports[`Storyshots MacroProduct Macro Product Default 1`] = `
         target="_blank"
       >
         <div
-          className="__react_component_tooltip t6b07c7a1-5827-419b-a102-eb49f38dfbe7 place-top type-dark"
+          className="__react_component_tooltip tf09474fb-bdd0-4b75-a635-3e87c177e942 place-top type-dark"
           data-id="tooltip"
           id="manual-tip"
         >
@@ -31,19 +31,19 @@ exports[`Storyshots MacroProduct Macro Product Default 1`] = `
             dangerouslySetInnerHTML={
               Object {
                 "__html": "
-  	.t6b07c7a1-5827-419b-a102-eb49f38dfbe7 {
+  	.tf09474fb-bdd0-4b75-a635-3e87c177e942 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t6b07c7a1-5827-419b-a102-eb49f38dfbe7.place-top {
+  	.tf09474fb-bdd0-4b75-a635-3e87c177e942.place-top {
         margin-top: -10px;
     }
-    .t6b07c7a1-5827-419b-a102-eb49f38dfbe7.place-top::before {
+    .tf09474fb-bdd0-4b75-a635-3e87c177e942.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t6b07c7a1-5827-419b-a102-eb49f38dfbe7.place-top::after {
+    .tf09474fb-bdd0-4b75-a635-3e87c177e942.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -54,13 +54,13 @@ exports[`Storyshots MacroProduct Macro Product Default 1`] = `
         border-top-width: 6px;
     }
 
-    .t6b07c7a1-5827-419b-a102-eb49f38dfbe7.place-bottom {
+    .tf09474fb-bdd0-4b75-a635-3e87c177e942.place-bottom {
         margin-top: 10px;
     }
-    .t6b07c7a1-5827-419b-a102-eb49f38dfbe7.place-bottom::before {
+    .tf09474fb-bdd0-4b75-a635-3e87c177e942.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t6b07c7a1-5827-419b-a102-eb49f38dfbe7.place-bottom::after {
+    .tf09474fb-bdd0-4b75-a635-3e87c177e942.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -71,13 +71,13 @@ exports[`Storyshots MacroProduct Macro Product Default 1`] = `
         border-bottom-width: 6px;
     }
 
-    .t6b07c7a1-5827-419b-a102-eb49f38dfbe7.place-left {
+    .tf09474fb-bdd0-4b75-a635-3e87c177e942.place-left {
         margin-left: -10px;
     }
-    .t6b07c7a1-5827-419b-a102-eb49f38dfbe7.place-left::before {
+    .tf09474fb-bdd0-4b75-a635-3e87c177e942.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t6b07c7a1-5827-419b-a102-eb49f38dfbe7.place-left::after {
+    .tf09474fb-bdd0-4b75-a635-3e87c177e942.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -88,13 +88,13 @@ exports[`Storyshots MacroProduct Macro Product Default 1`] = `
         border-left-width: 6px;
     }
 
-    .t6b07c7a1-5827-419b-a102-eb49f38dfbe7.place-right {
+    .tf09474fb-bdd0-4b75-a635-3e87c177e942.place-right {
         margin-left: 10px;
     }
-    .t6b07c7a1-5827-419b-a102-eb49f38dfbe7.place-right::before {
+    .tf09474fb-bdd0-4b75-a635-3e87c177e942.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t6b07c7a1-5827-419b-a102-eb49f38dfbe7.place-right::after {
+    .tf09474fb-bdd0-4b75-a635-3e87c177e942.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -125,7 +125,7 @@ exports[`Storyshots MacroProduct Macro Product Default 1`] = `
         target="_blank"
       >
         <div
-          className="__react_component_tooltip t9d79f6ac-a499-4b13-820f-2e8534f4f524 place-top type-dark"
+          className="__react_component_tooltip taa98d84d-62eb-4c56-9d14-55b7d02da59b place-top type-dark"
           data-id="tooltip"
           id="drawings-tip"
         >
@@ -133,19 +133,19 @@ exports[`Storyshots MacroProduct Macro Product Default 1`] = `
             dangerouslySetInnerHTML={
               Object {
                 "__html": "
-  	.t9d79f6ac-a499-4b13-820f-2e8534f4f524 {
+  	.taa98d84d-62eb-4c56-9d14-55b7d02da59b {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t9d79f6ac-a499-4b13-820f-2e8534f4f524.place-top {
+  	.taa98d84d-62eb-4c56-9d14-55b7d02da59b.place-top {
         margin-top: -10px;
     }
-    .t9d79f6ac-a499-4b13-820f-2e8534f4f524.place-top::before {
+    .taa98d84d-62eb-4c56-9d14-55b7d02da59b.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t9d79f6ac-a499-4b13-820f-2e8534f4f524.place-top::after {
+    .taa98d84d-62eb-4c56-9d14-55b7d02da59b.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -156,13 +156,13 @@ exports[`Storyshots MacroProduct Macro Product Default 1`] = `
         border-top-width: 6px;
     }
 
-    .t9d79f6ac-a499-4b13-820f-2e8534f4f524.place-bottom {
+    .taa98d84d-62eb-4c56-9d14-55b7d02da59b.place-bottom {
         margin-top: 10px;
     }
-    .t9d79f6ac-a499-4b13-820f-2e8534f4f524.place-bottom::before {
+    .taa98d84d-62eb-4c56-9d14-55b7d02da59b.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t9d79f6ac-a499-4b13-820f-2e8534f4f524.place-bottom::after {
+    .taa98d84d-62eb-4c56-9d14-55b7d02da59b.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -173,13 +173,13 @@ exports[`Storyshots MacroProduct Macro Product Default 1`] = `
         border-bottom-width: 6px;
     }
 
-    .t9d79f6ac-a499-4b13-820f-2e8534f4f524.place-left {
+    .taa98d84d-62eb-4c56-9d14-55b7d02da59b.place-left {
         margin-left: -10px;
     }
-    .t9d79f6ac-a499-4b13-820f-2e8534f4f524.place-left::before {
+    .taa98d84d-62eb-4c56-9d14-55b7d02da59b.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t9d79f6ac-a499-4b13-820f-2e8534f4f524.place-left::after {
+    .taa98d84d-62eb-4c56-9d14-55b7d02da59b.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -190,13 +190,13 @@ exports[`Storyshots MacroProduct Macro Product Default 1`] = `
         border-left-width: 6px;
     }
 
-    .t9d79f6ac-a499-4b13-820f-2e8534f4f524.place-right {
+    .taa98d84d-62eb-4c56-9d14-55b7d02da59b.place-right {
         margin-left: 10px;
     }
-    .t9d79f6ac-a499-4b13-820f-2e8534f4f524.place-right::before {
+    .taa98d84d-62eb-4c56-9d14-55b7d02da59b.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t9d79f6ac-a499-4b13-820f-2e8534f4f524.place-right::after {
+    .taa98d84d-62eb-4c56-9d14-55b7d02da59b.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -252,7 +252,7 @@ exports[`Storyshots MacroProduct Macro Product No Thumb 1`] = `
         target="_blank"
       >
         <div
-          className="__react_component_tooltip t64b36cee-ec0c-4e42-8dbd-1391d5d2a748 place-top type-dark"
+          className="__react_component_tooltip t91eb11ee-a949-47bd-82e8-bd1126b4e122 place-top type-dark"
           data-id="tooltip"
           id="manual-tip"
         >
@@ -260,19 +260,19 @@ exports[`Storyshots MacroProduct Macro Product No Thumb 1`] = `
             dangerouslySetInnerHTML={
               Object {
                 "__html": "
-  	.t64b36cee-ec0c-4e42-8dbd-1391d5d2a748 {
+  	.t91eb11ee-a949-47bd-82e8-bd1126b4e122 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t64b36cee-ec0c-4e42-8dbd-1391d5d2a748.place-top {
+  	.t91eb11ee-a949-47bd-82e8-bd1126b4e122.place-top {
         margin-top: -10px;
     }
-    .t64b36cee-ec0c-4e42-8dbd-1391d5d2a748.place-top::before {
+    .t91eb11ee-a949-47bd-82e8-bd1126b4e122.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t64b36cee-ec0c-4e42-8dbd-1391d5d2a748.place-top::after {
+    .t91eb11ee-a949-47bd-82e8-bd1126b4e122.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -283,13 +283,13 @@ exports[`Storyshots MacroProduct Macro Product No Thumb 1`] = `
         border-top-width: 6px;
     }
 
-    .t64b36cee-ec0c-4e42-8dbd-1391d5d2a748.place-bottom {
+    .t91eb11ee-a949-47bd-82e8-bd1126b4e122.place-bottom {
         margin-top: 10px;
     }
-    .t64b36cee-ec0c-4e42-8dbd-1391d5d2a748.place-bottom::before {
+    .t91eb11ee-a949-47bd-82e8-bd1126b4e122.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t64b36cee-ec0c-4e42-8dbd-1391d5d2a748.place-bottom::after {
+    .t91eb11ee-a949-47bd-82e8-bd1126b4e122.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -300,13 +300,13 @@ exports[`Storyshots MacroProduct Macro Product No Thumb 1`] = `
         border-bottom-width: 6px;
     }
 
-    .t64b36cee-ec0c-4e42-8dbd-1391d5d2a748.place-left {
+    .t91eb11ee-a949-47bd-82e8-bd1126b4e122.place-left {
         margin-left: -10px;
     }
-    .t64b36cee-ec0c-4e42-8dbd-1391d5d2a748.place-left::before {
+    .t91eb11ee-a949-47bd-82e8-bd1126b4e122.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t64b36cee-ec0c-4e42-8dbd-1391d5d2a748.place-left::after {
+    .t91eb11ee-a949-47bd-82e8-bd1126b4e122.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -317,13 +317,13 @@ exports[`Storyshots MacroProduct Macro Product No Thumb 1`] = `
         border-left-width: 6px;
     }
 
-    .t64b36cee-ec0c-4e42-8dbd-1391d5d2a748.place-right {
+    .t91eb11ee-a949-47bd-82e8-bd1126b4e122.place-right {
         margin-left: 10px;
     }
-    .t64b36cee-ec0c-4e42-8dbd-1391d5d2a748.place-right::before {
+    .t91eb11ee-a949-47bd-82e8-bd1126b4e122.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t64b36cee-ec0c-4e42-8dbd-1391d5d2a748.place-right::after {
+    .t91eb11ee-a949-47bd-82e8-bd1126b4e122.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -354,7 +354,7 @@ exports[`Storyshots MacroProduct Macro Product No Thumb 1`] = `
         target="_blank"
       >
         <div
-          className="__react_component_tooltip t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14 place-top type-dark"
+          className="__react_component_tooltip t5601bb27-fe7d-4d32-8076-b74dc50e0ca7 place-top type-dark"
           data-id="tooltip"
           id="drawings-tip"
         >
@@ -362,19 +362,19 @@ exports[`Storyshots MacroProduct Macro Product No Thumb 1`] = `
             dangerouslySetInnerHTML={
               Object {
                 "__html": "
-  	.t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14 {
+  	.t5601bb27-fe7d-4d32-8076-b74dc50e0ca7 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14.place-top {
+  	.t5601bb27-fe7d-4d32-8076-b74dc50e0ca7.place-top {
         margin-top: -10px;
     }
-    .t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14.place-top::before {
+    .t5601bb27-fe7d-4d32-8076-b74dc50e0ca7.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14.place-top::after {
+    .t5601bb27-fe7d-4d32-8076-b74dc50e0ca7.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -385,13 +385,13 @@ exports[`Storyshots MacroProduct Macro Product No Thumb 1`] = `
         border-top-width: 6px;
     }
 
-    .t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14.place-bottom {
+    .t5601bb27-fe7d-4d32-8076-b74dc50e0ca7.place-bottom {
         margin-top: 10px;
     }
-    .t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14.place-bottom::before {
+    .t5601bb27-fe7d-4d32-8076-b74dc50e0ca7.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14.place-bottom::after {
+    .t5601bb27-fe7d-4d32-8076-b74dc50e0ca7.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -402,13 +402,13 @@ exports[`Storyshots MacroProduct Macro Product No Thumb 1`] = `
         border-bottom-width: 6px;
     }
 
-    .t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14.place-left {
+    .t5601bb27-fe7d-4d32-8076-b74dc50e0ca7.place-left {
         margin-left: -10px;
     }
-    .t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14.place-left::before {
+    .t5601bb27-fe7d-4d32-8076-b74dc50e0ca7.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14.place-left::after {
+    .t5601bb27-fe7d-4d32-8076-b74dc50e0ca7.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -419,13 +419,13 @@ exports[`Storyshots MacroProduct Macro Product No Thumb 1`] = `
         border-left-width: 6px;
     }
 
-    .t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14.place-right {
+    .t5601bb27-fe7d-4d32-8076-b74dc50e0ca7.place-right {
         margin-left: 10px;
     }
-    .t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14.place-right::before {
+    .t5601bb27-fe7d-4d32-8076-b74dc50e0ca7.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t1eacdb3f-9bab-49d0-b7c4-0a8f2e53dd14.place-right::after {
+    .t5601bb27-fe7d-4d32-8076-b74dc50e0ca7.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
