@@ -15,6 +15,8 @@ const resolvers: Resolvers = {
           id: subpart.id,
           name: subpart.name,
           thumb: subpart.thumb,
+          manual: subpart.manual,
+          drawings: subpart.drawings,
           subparts: subpart.subparts,
           parentId: parent.id,
         })) || []

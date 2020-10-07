@@ -5,6 +5,8 @@ const typeDefs = gql`
     id: Int!
     name: String!
     thumb: String
+    manual: String
+    drawings: String
     quantity: Int
     subparts: [Part!]
     parentId: Int

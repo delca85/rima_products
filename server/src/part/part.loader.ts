@@ -11,6 +11,8 @@ const formatParts = (modelInstances: any[]): tPart[] =>
     thumb: instance.thumb,
     parentId: instance.parentId,
     subparts: instance.subparts,
+    manual: instance.manual,
+    drawings: instance.drawings,
   }));
 
 export const batchParts: tBatchParts = async (ids) => {

@@ -19,6 +19,8 @@ describe('part loader', () => {
         id: 2,
         name: 'macro_part',
         thumb: 'macro_part_thumb',
+        manual: 'macro_part_manual',
+        drawings: 'macro_part_drawings',
         subparts: mockSubparts,
       },
     ];

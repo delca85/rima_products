@@ -24,5 +24,7 @@ export const mockParts: Part[] = [
     name: 'macro_part',
     thumb: 'macro_part_thumb',
     subparts: mockSubparts,
+    manual: 'macro_part_manual',
+    drawings: 'macro_part_drawings',
   },
 ];

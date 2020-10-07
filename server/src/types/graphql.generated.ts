@@ -43,6 +43,8 @@ export type Part = {
   id: Scalars['Int'];
   name: Scalars['String'];
   thumb?: Maybe<Scalars['String']>;
+  manual?: Maybe<Scalars['String']>;
+  drawings?: Maybe<Scalars['String']>;
   quantity?: Maybe<Scalars['Int']>;
   subparts?: Maybe<Array<Part>>;
   parentId?: Maybe<Scalars['Int']>;
@@ -151,6 +153,8 @@ export type PartResolvers<ContextType = RimaModelsContext, ParentType extends Re
   id?: Resolver<ResolversTypes['Int'], ParentType, ContextType>;
   name?: Resolver<ResolversTypes['String'], ParentType, ContextType>;
   thumb?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
+  manual?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
+  drawings?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   quantity?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   subparts?: Resolver<Maybe<Array<ResolversTypes['Part']>>, ParentType, ContextType>;
   parentId?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;

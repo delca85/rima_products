@@ -8,6 +8,8 @@ class Part extends Model implements tPart {
   public name!: string;
   public thumb?: string;
   public subparts?: tPart[];
+  public manual?: string;
+  public drawings?: string;
 }
 
 Part.init(
@@ -24,6 +26,14 @@ Part.init(
       type: DataTypes.STRING,
       allowNull: true,
     },
+    manual: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+    drawings: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
   },
   {
     sequelize,
@@ -31,7 +41,7 @@ Part.init(
     freezeTableName: true,
     tableName: 'parts',
     timestamps: false,
-  }
+  },
 );
 
 Part.belongsToMany(Part, {
