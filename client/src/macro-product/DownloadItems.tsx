@@ -10,26 +10,33 @@ export interface IDownloadItemsProps extends IRimaComponentProps {
   drawings?: string;
 }
 
-const DownloadItemsRaw = ({ className, manual, drawings }: IDownloadItemsProps) => (
-  <div className={className}>
-    {manual && (
+const DownloadItemsRaw = ({ className, manual = '', drawings = '' }: IDownloadItemsProps) => {
+  console.log('drawings', drawings);
+  const ManualComponent = () =>
+    manual ? (
       <a data-tip data-for="manual-tip" href={manual} rel="noopener noreferrer" target="_blank">
         <ReactTooltip id="manual-tip" type="info">
           <span>Download Manual</span>
         </ReactTooltip>
         <img src={manualSrc} alt="Manual" />
       </a>
-    )}
-    {drawings && (
+    ) : null;
+  const DrawingsComponent = () =>
+    drawings ? (
       <a data-tip data-for="drawings-tip" href={drawings} rel="noopener noreferrer" target="_blank">
         <ReactTooltip id="drawings-tip" type="info">
           <span>Download Drawings</span>
         </ReactTooltip>
         <img src={drawingsSrc} alt="Drawings" />
       </a>
-    )}
-  </div>
-);
+    ) : null;
+  return (
+    <div className={className}>
+      <ManualComponent />
+      <DrawingsComponent />
+    </div>
+  );
+};
 
 const DownloadItems = styled(DownloadItemsRaw)`
   flex: 1;
