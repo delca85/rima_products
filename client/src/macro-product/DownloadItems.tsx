@@ -11,7 +11,6 @@ export interface IDownloadItemsProps extends IRimaComponentProps {
 }
 
 const DownloadItemsRaw = ({ className, manual = '', drawings = '' }: IDownloadItemsProps) => {
-  console.log('drawings', drawings);
   const ManualComponent = () =>
     manual ? (
       <a data-tip data-for="manual-tip" href={manual} rel="noopener noreferrer" target="_blank">
