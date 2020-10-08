@@ -18,6 +18,8 @@ export type tPart = {
   id: Scalars['Int'];
   name: Scalars['String'];
   thumb?: Maybe<Scalars['String']>;
+  manual?: Maybe<Scalars['String']>;
+  drawings?: Maybe<Scalars['String']>;
   quantity?: Maybe<Scalars['Int']>;
   subparts?: Maybe<Array<tPart>>;
   parentId?: Maybe<Scalars['Int']>;
@@ -60,7 +62,7 @@ export type tPartsQueryVariables = Exact<{
 }>;
 
 
-export type tPartsQuery = { __typename?: 'Query', part?: Maybe<{ __typename?: 'Part', id: number, name: string, thumb?: Maybe<string>, subparts?: Maybe<Array<{ __typename?: 'Part', id: number, name: string, thumb?: Maybe<string>, quantity?: Maybe<number>, subparts?: Maybe<Array<{ __typename?: 'Part', id: number, name: string, thumb?: Maybe<string>, quantity?: Maybe<number> }>> }>> }> };
+export type tPartsQuery = { __typename?: 'Query', part?: Maybe<{ __typename?: 'Part', id: number, name: string, thumb?: Maybe<string>, manual?: Maybe<string>, drawings?: Maybe<string>, subparts?: Maybe<Array<{ __typename?: 'Part', id: number, name: string, thumb?: Maybe<string>, quantity?: Maybe<number>, subparts?: Maybe<Array<{ __typename?: 'Part', id: number, name: string, thumb?: Maybe<string>, quantity?: Maybe<number> }>> }>> }> };
 
 
 export const PartsDocument = gql`
@@ -69,6 +71,8 @@ export const PartsDocument = gql`
     id
     name
     thumb
+    manual
+    drawings
     subparts {
       id
       name

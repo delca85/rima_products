@@ -31,12 +31,19 @@ const MacroProductContainerRaw = ({ className }: IRimaComponentProps) => {
     part.subparts.forEach((subpart) => (subparts = subparts.concat(subpart.subparts || [])));
   }
 
-  const thumb = part.thumb || '';
+  const { name, thumb, manual, drawings } = part;
 
   return (
     <div className={className}>
       <div className="macro-product-container">
-        <MacroProduct className="macro-product" id={id} name={part.name} thumb={thumb} />
+        <MacroProduct
+          className="macro-product"
+          id={id}
+          name={name}
+          thumb={thumb}
+          manual={manual}
+          drawings={drawings}
+        />
         <SubpartsTable className="subparts-table" subparts={subparts} />
       </div>
       <FooterIconLicense />

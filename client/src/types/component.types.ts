@@ -10,4 +10,6 @@ export interface IPartComponentProps extends IRimaComponentProps {
   name: string;
   thumb?: string;
   quantity?: number;
+  manual?: string;
+  drawings?: string;
 }

@@ -104,48 +104,7 @@ describe('MacroProductContainer logic test ', () => {
               </h2>
               <div
                 class="sc-gtssRu hDnYhE"
-              >
-                <a
-                  data-for="manual-tip"
-                  data-tip="true"
-                  href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <div
-                    id="manual-tip"
-                  >
-                     
-                    <span>
-                      Download Manual
-                    </span>
-                  </div>
-                  <img
-                    alt="Manual"
-                    src="manual.svg"
-                  />
-                </a>
-                <a
-                  data-for="drawings-tip"
-                  data-tip="true"
-                  href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <div
-                    id="drawings-tip"
-                  >
-                     
-                    <span>
-                      Download Drawings
-                    </span>
-                  </div>
-                  <img
-                    alt="Drawings"
-                    src="drawings.svg"
-                  />
-                </a>
-              </div>
+              />
             </div>
             <img
               alt="Product with id: 1"
@@ -228,48 +187,7 @@ describe('MacroProductContainer logic test ', () => {
               </h2>
               <div
                 class="sc-gtssRu hDnYhE"
-              >
-                <a
-                  data-for="manual-tip"
-                  data-tip="true"
-                  href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <div
-                    id="manual-tip"
-                  >
-                     
-                    <span>
-                      Download Manual
-                    </span>
-                  </div>
-                  <img
-                    alt="Manual"
-                    src="manual.svg"
-                  />
-                </a>
-                <a
-                  data-for="drawings-tip"
-                  data-tip="true"
-                  href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <div
-                    id="drawings-tip"
-                  >
-                     
-                    <span>
-                      Download Drawings
-                    </span>
-                  </div>
-                  <img
-                    alt="Drawings"
-                    src="drawings.svg"
-                  />
-                </a>
-              </div>
+              />
             </div>
             <img
               alt="Product with id: 1"
@@ -428,48 +346,7 @@ describe('MacroProductContainer logic test ', () => {
               </h2>
               <div
                 class="sc-gtssRu hDnYhE"
-              >
-                <a
-                  data-for="manual-tip"
-                  data-tip="true"
-                  href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <div
-                    id="manual-tip"
-                  >
-                     
-                    <span>
-                      Download Manual
-                    </span>
-                  </div>
-                  <img
-                    alt="Manual"
-                    src="manual.svg"
-                  />
-                </a>
-                <a
-                  data-for="drawings-tip"
-                  data-tip="true"
-                  href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <div
-                    id="drawings-tip"
-                  >
-                     
-                    <span>
-                      Download Drawings
-                    </span>
-                  </div>
-                  <img
-                    alt="Drawings"
-                    src="drawings.svg"
-                  />
-                </a>
-              </div>
+              />
             </div>
             <img
               alt="Product with id: 1"

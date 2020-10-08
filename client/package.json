@@ -23,7 +23,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test:coverage": "yarn run test --coverage --watchAll=false",
+    "test:c": "yarn run test --coverage --watchAll=false",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
@@ -78,7 +78,8 @@
       "!src/**/*.types.{js,jsx,ts,tsx}",
       "!src/**/*.stories.tsx",
       "!src/types/graphql.generated.ts",
-      "!src/dev-tools/**/*.*"
+      "!src/dev-tools/**/*.*",
+      "!**/*.dev.ts"
     ]
   }
 }

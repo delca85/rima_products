@@ -3,6 +3,8 @@ query Parts($id: Int!) {
     id
     name
     thumb
+    manual
+    drawings
     subparts {
       id
       name

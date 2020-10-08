@@ -7,6 +7,18 @@ export default {
   component: DownloadItems,
 };
 
-export const DownloadItemsDefault: React.FunctionComponent<IRimaComponentProps> = () => (
+export const DownloadItemsWithManualAndDrawings: React.FunctionComponent<IRimaComponentProps> = () => (
+  <DownloadItems manual="FAKE_MANUAL" drawings="FAKE_DRAWINGS" />
+);
+
+export const DownloadItemsWithManualAndNoDrawings: React.FunctionComponent<IRimaComponentProps> = () => (
+  <DownloadItems manual="FAKE_MANUAL" />
+);
+
+export const DownloadItemsWithNoManualAndDrawings: React.FunctionComponent<IRimaComponentProps> = () => (
+  <DownloadItems drawings="FAKE_DRAWINGS" />
+);
+
+export const DownloadItemsWithNoManualAndNoDrawings: React.FunctionComponent<IRimaComponentProps> = () => (
   <DownloadItems />
 );

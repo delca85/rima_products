@@ -210,3 +210,5 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
   </a>
 </div>
 `;
+
+exports[`Storyshots DownloadItems Download Items With No Manual And No Drawings 1`] = `null`;
