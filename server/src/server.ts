@@ -1,4 +1,3 @@
-import express from 'express';
 import { ApolloServer } from 'apollo-server';
 import { ApolloServer as ApolloServerLambda } from 'apollo-server-lambda';
 import depthLimit from 'graphql-depth-limit';

@@ -8,12 +8,14 @@ const DB_PASSWORD = accessEnv('DB_PASSWORD');
 const DB_HOST = accessEnv('DB_HOST');
 const DB_PORT = accessEnv('DB_PORT');
 
+export const logging = (...msg: any) => console.log(msg);
+
 const sequelize = new Sequelize(DB_NAME, DB_USERNAME, DB_PASSWORD, {
   host: DB_HOST,
   port: DB_PORT,
   dialect: 'mysql',
   dialectModule: mysql2,
-  logging: (...msg) => console.log(msg),
+  logging,
 });
 
 export default sequelize;

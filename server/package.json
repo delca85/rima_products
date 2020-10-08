@@ -53,6 +53,15 @@
       "**/__tests__/**/*.test.ts?(x)",
       "!**/*.mocks.{js,ts}"
     ],
+    "collectCoverageFrom": [
+      "**/*.{ts,tsx}",
+      "!**/node_modules/**",
+      "!**/*.mocks.ts",
+      "!**/*.d.ts",
+      "!**/*.generated.ts",
+      "!**/index.ts",
+      "!**/index.dev.ts"
+    ],
     "setupFiles": [
       "./setup-tests.ts"
     ],
