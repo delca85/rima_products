@@ -28,6 +28,7 @@ const MacroProduct = styled(MacroProductRaw)`
     align-items: center;
     .macro-product-name {
       text-transform: capitalize;
+      margin-right: 1rem;
     }
   }
   .macro-product-image {
