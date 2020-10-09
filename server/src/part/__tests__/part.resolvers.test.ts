@@ -44,7 +44,7 @@ describe('part resolvers logic', () => {
   });
   it('should call loader load when a part is searched by its id', async () => {
     const partQuery = partResolvers.Query?.part || (() => Promise.resolve());
-    const res = await partQuery({}, { id: 1 }, context.createContext(), mockInfo);
+    await partQuery({}, { id: 1 }, context.createContext(), mockInfo);
 
     expect(mockLoad).toBeCalledWith(1);
   });
