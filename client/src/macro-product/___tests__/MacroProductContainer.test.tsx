@@ -104,7 +104,10 @@ describe('MacroProductContainer logic test ', () => {
               </h2>
               <div
                 class="sc-gtssRu hDnYhE"
-              />
+              >
+                
+                
+              </div>
             </div>
             <img
               alt="Product with id: 1"
@@ -187,7 +190,10 @@ describe('MacroProductContainer logic test ', () => {
               </h2>
               <div
                 class="sc-gtssRu hDnYhE"
-              />
+              >
+                
+                
+              </div>
             </div>
             <img
               alt="Product with id: 1"
@@ -346,7 +352,10 @@ describe('MacroProductContainer logic test ', () => {
               </h2>
               <div
                 class="sc-gtssRu hDnYhE"
-              />
+              >
+                
+                
+              </div>
             </div>
             <img
               alt="Product with id: 1"

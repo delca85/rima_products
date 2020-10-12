@@ -11,28 +11,30 @@ export interface IDownloadItemsProps extends IRimaComponentProps {
 }
 
 const DownloadItemsRaw = ({ className, manual = '', drawings = '' }: IDownloadItemsProps) => {
-  const ManualComponent = () =>
-    manual ? (
-      <a data-tip data-for="manual-tip" href={manual} rel="noopener noreferrer" target="_blank">
-        <ReactTooltip id="manual-tip" type="info">
-          <span>Download Manual</span>
-        </ReactTooltip>
-        <img src={manualSrc} alt="Manual" />
-      </a>
-    ) : null;
-  const DrawingsComponent = () =>
-    drawings ? (
-      <a data-tip data-for="drawings-tip" href={drawings} rel="noopener noreferrer" target="_blank">
-        <ReactTooltip id="drawings-tip" type="info">
-          <span>Download Drawings</span>
-        </ReactTooltip>
-        <img src={drawingsSrc} alt="Drawings" />
-      </a>
-    ) : null;
+  // const onDownloadManual = useCallback
   return (
     <div className={className}>
-      <ManualComponent />
-      <DrawingsComponent />
+      {manual && (
+        <a data-tip data-for="manual-tip" href={manual} rel="noopener noreferrer" target="_blank">
+          <ReactTooltip id="manual-tip" type="info">
+            <span>Download Manual</span>
+          </ReactTooltip>
+          <img src={manualSrc} alt="Manual" />
+        </a>
+      )}
+      {drawings && (
+        <a
+          data-tip
+          data-for="drawings-tip"
+          href={drawings}
+          rel="noopener noreferrer"
+          target="_blank">
+          <ReactTooltip id="drawings-tip" type="info">
+            <span>Download Drawings</span>
+          </ReactTooltip>
+          <img src={drawingsSrc} alt="Drawings" />
+        </a>
+      )}
     </div>
   );
 };

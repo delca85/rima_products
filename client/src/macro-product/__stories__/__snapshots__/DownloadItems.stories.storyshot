@@ -1,18 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots DownloadItems Download Items Default 1`] = `
+exports[`Storyshots DownloadItems Download Items With Manual And Drawings 1`] = `
 <div
   className="sc-jSFkmK cQjiJW"
 >
   <a
     data-for="manual-tip"
     data-tip={true}
-    href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
+    href="FAKE_MANUAL"
     rel="noopener noreferrer"
     target="_blank"
   >
     <div
-      className="__react_component_tooltip t7c5a6721-4943-4853-b305-f491330a930f place-top type-dark"
+      className="__react_component_tooltip t03cc01e5-f10c-43f7-aeeb-33907ab631c4 place-top type-dark"
       data-id="tooltip"
       id="manual-tip"
     >
@@ -20,19 +20,19 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         dangerouslySetInnerHTML={
           Object {
             "__html": "
-  	.t7c5a6721-4943-4853-b305-f491330a930f {
+  	.t03cc01e5-f10c-43f7-aeeb-33907ab631c4 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t7c5a6721-4943-4853-b305-f491330a930f.place-top {
+  	.t03cc01e5-f10c-43f7-aeeb-33907ab631c4.place-top {
         margin-top: -10px;
     }
-    .t7c5a6721-4943-4853-b305-f491330a930f.place-top::before {
+    .t03cc01e5-f10c-43f7-aeeb-33907ab631c4.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t7c5a6721-4943-4853-b305-f491330a930f.place-top::after {
+    .t03cc01e5-f10c-43f7-aeeb-33907ab631c4.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -43,13 +43,13 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         border-top-width: 6px;
     }
 
-    .t7c5a6721-4943-4853-b305-f491330a930f.place-bottom {
+    .t03cc01e5-f10c-43f7-aeeb-33907ab631c4.place-bottom {
         margin-top: 10px;
     }
-    .t7c5a6721-4943-4853-b305-f491330a930f.place-bottom::before {
+    .t03cc01e5-f10c-43f7-aeeb-33907ab631c4.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t7c5a6721-4943-4853-b305-f491330a930f.place-bottom::after {
+    .t03cc01e5-f10c-43f7-aeeb-33907ab631c4.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -60,13 +60,13 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         border-bottom-width: 6px;
     }
 
-    .t7c5a6721-4943-4853-b305-f491330a930f.place-left {
+    .t03cc01e5-f10c-43f7-aeeb-33907ab631c4.place-left {
         margin-left: -10px;
     }
-    .t7c5a6721-4943-4853-b305-f491330a930f.place-left::before {
+    .t03cc01e5-f10c-43f7-aeeb-33907ab631c4.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t7c5a6721-4943-4853-b305-f491330a930f.place-left::after {
+    .t03cc01e5-f10c-43f7-aeeb-33907ab631c4.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -77,13 +77,13 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         border-left-width: 6px;
     }
 
-    .t7c5a6721-4943-4853-b305-f491330a930f.place-right {
+    .t03cc01e5-f10c-43f7-aeeb-33907ab631c4.place-right {
         margin-left: 10px;
     }
-    .t7c5a6721-4943-4853-b305-f491330a930f.place-right::before {
+    .t03cc01e5-f10c-43f7-aeeb-33907ab631c4.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t7c5a6721-4943-4853-b305-f491330a930f.place-right::after {
+    .t03cc01e5-f10c-43f7-aeeb-33907ab631c4.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -109,12 +109,12 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
   <a
     data-for="drawings-tip"
     data-tip={true}
-    href="https://www.dropbox.com/s/boc8ids41qq4ysx/manual.pdf?dl=0"
+    href="FAKE_DRAWINGS"
     rel="noopener noreferrer"
     target="_blank"
   >
     <div
-      className="__react_component_tooltip t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c place-top type-dark"
+      className="__react_component_tooltip tf54ed83e-b828-418e-af81-f1bc5bcc6d8c place-top type-dark"
       data-id="tooltip"
       id="drawings-tip"
     >
@@ -122,19 +122,19 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         dangerouslySetInnerHTML={
           Object {
             "__html": "
-  	.t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c {
+  	.tf54ed83e-b828-418e-af81-f1bc5bcc6d8c {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c.place-top {
+  	.tf54ed83e-b828-418e-af81-f1bc5bcc6d8c.place-top {
         margin-top: -10px;
     }
-    .t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c.place-top::before {
+    .tf54ed83e-b828-418e-af81-f1bc5bcc6d8c.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c.place-top::after {
+    .tf54ed83e-b828-418e-af81-f1bc5bcc6d8c.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -145,13 +145,13 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         border-top-width: 6px;
     }
 
-    .t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c.place-bottom {
+    .tf54ed83e-b828-418e-af81-f1bc5bcc6d8c.place-bottom {
         margin-top: 10px;
     }
-    .t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c.place-bottom::before {
+    .tf54ed83e-b828-418e-af81-f1bc5bcc6d8c.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c.place-bottom::after {
+    .tf54ed83e-b828-418e-af81-f1bc5bcc6d8c.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -162,13 +162,13 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         border-bottom-width: 6px;
     }
 
-    .t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c.place-left {
+    .tf54ed83e-b828-418e-af81-f1bc5bcc6d8c.place-left {
         margin-left: -10px;
     }
-    .t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c.place-left::before {
+    .tf54ed83e-b828-418e-af81-f1bc5bcc6d8c.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c.place-left::after {
+    .tf54ed83e-b828-418e-af81-f1bc5bcc6d8c.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -179,13 +179,13 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
         border-left-width: 6px;
     }
 
-    .t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c.place-right {
+    .tf54ed83e-b828-418e-af81-f1bc5bcc6d8c.place-right {
         margin-left: 10px;
     }
-    .t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c.place-right::before {
+    .tf54ed83e-b828-418e-af81-f1bc5bcc6d8c.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t7b04be4a-8dd4-4bcd-96d8-d9e28263c50c.place-right::after {
+    .tf54ed83e-b828-418e-af81-f1bc5bcc6d8c.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -211,4 +211,231 @@ exports[`Storyshots DownloadItems Download Items Default 1`] = `
 </div>
 `;
 
-exports[`Storyshots DownloadItems Download Items With No Manual And No Drawings 1`] = `null`;
+exports[`Storyshots DownloadItems Download Items With Manual And No Drawings 1`] = `
+<div
+  className="sc-jSFkmK cQjiJW"
+>
+  <a
+    data-for="manual-tip"
+    data-tip={true}
+    href="FAKE_MANUAL"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <div
+      className="__react_component_tooltip t8d5bd44a-8792-46e2-86e0-00c183774856 place-top type-dark"
+      data-id="tooltip"
+      id="manual-tip"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "
+  	.t8d5bd44a-8792-46e2-86e0-00c183774856 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t8d5bd44a-8792-46e2-86e0-00c183774856.place-top {
+        margin-top: -10px;
+    }
+    .t8d5bd44a-8792-46e2-86e0-00c183774856.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t8d5bd44a-8792-46e2-86e0-00c183774856.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t8d5bd44a-8792-46e2-86e0-00c183774856.place-bottom {
+        margin-top: 10px;
+    }
+    .t8d5bd44a-8792-46e2-86e0-00c183774856.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t8d5bd44a-8792-46e2-86e0-00c183774856.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t8d5bd44a-8792-46e2-86e0-00c183774856.place-left {
+        margin-left: -10px;
+    }
+    .t8d5bd44a-8792-46e2-86e0-00c183774856.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t8d5bd44a-8792-46e2-86e0-00c183774856.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t8d5bd44a-8792-46e2-86e0-00c183774856.place-right {
+        margin-left: 10px;
+    }
+    .t8d5bd44a-8792-46e2-86e0-00c183774856.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t8d5bd44a-8792-46e2-86e0-00c183774856.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  ",
+          }
+        }
+      />
+      <span>
+        Download Manual
+      </span>
+    </div>
+    <img
+      alt="Manual"
+      src="manual.svg"
+    />
+  </a>
+  
+</div>
+`;
+
+exports[`Storyshots DownloadItems Download Items With No Manual And Drawings 1`] = `
+<div
+  className="sc-jSFkmK cQjiJW"
+>
+  
+  <a
+    data-for="drawings-tip"
+    data-tip={true}
+    href="FAKE_DRAWINGS"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <div
+      className="__react_component_tooltip t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3 place-top type-dark"
+      data-id="tooltip"
+      id="drawings-tip"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "
+  	.t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3.place-top {
+        margin-top: -10px;
+    }
+    .t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3.place-bottom {
+        margin-top: 10px;
+    }
+    .t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3.place-left {
+        margin-left: -10px;
+    }
+    .t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3.place-right {
+        margin-left: 10px;
+    }
+    .t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  ",
+          }
+        }
+      />
+      <span>
+        Download Drawings
+      </span>
+    </div>
+    <img
+      alt="Drawings"
+      src="drawings.svg"
+    />
+  </a>
+</div>
+`;
+
+exports[`Storyshots DownloadItems Download Items With No Manual And No Drawings 1`] = `
+<div
+  className="sc-jSFkmK cQjiJW"
+>
+  
+  
+</div>
+`;
