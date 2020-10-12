@@ -1,9 +1,9 @@
-import { mockParts, mockSubparts } from './part.mocks';
+import { mockedParts, mockSubparts } from './part.mocks';
 import { batchParts } from '../part.loader';
 import { default as PartModel } from '../part.model';
 
 jest.mock('../part.model.ts', () => ({
-  findAll: () => Promise.resolve(mockParts),
+  findAll: () => Promise.resolve(mockedParts),
 }));
 
 describe('part loader', () => {

@@ -7,7 +7,7 @@ jest.mock('../macro-product', () => ({
 
 describe('context module', () => {
   it('should create a context as expected', () => {
-    const mockLoader = jest.spyOn(partLoader, 'loader');
+    const mockedLoader = jest.spyOn(partLoader, 'loader');
     const expectedContextSubpart = {
       models: { Part: PartModel, MacroProduct: 'FAKE_MACRO_PRODUCT_MODEL' },
     };

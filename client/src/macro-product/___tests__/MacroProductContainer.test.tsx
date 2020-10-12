@@ -14,7 +14,7 @@ jest.mock('react-tooltip', () => ({
   ),
 }));
 
-const mockUsePartsQuery = usePartsQuery as jest.MockedFunction<typeof usePartsQuery>;
+const mockedUsePartsQuery = usePartsQuery as jest.MockedFunction<typeof usePartsQuery>;
 const mockReturnValue: PartsQueryResult = {
   client: buildApolloClient(),
   data: undefined,
@@ -32,7 +32,7 @@ const mockReturnValue: PartsQueryResult = {
 
 describe('MacroProductContainer logic test ', () => {
   it('should return an loading msg if the query is still loading', () => {
-    mockUsePartsQuery.mockReturnValueOnce({ ...mockReturnValue, loading: true });
+    mockedUsePartsQuery.mockReturnValueOnce({ ...mockReturnValue, loading: true });
 
     const { getByText } = renderWithRouter(<MacroProductContainer />);
 
@@ -40,7 +40,7 @@ describe('MacroProductContainer logic test ', () => {
   });
 
   it('should return an error msg if the query has loaded and returns an error', () => {
-    mockUsePartsQuery.mockReturnValueOnce({
+    mockedUsePartsQuery.mockReturnValueOnce({
       ...mockReturnValue,
       error: new ApolloError({ errorMessage: 'FAKE_ERROR' }),
     });
@@ -51,7 +51,7 @@ describe('MacroProductContainer logic test ', () => {
   });
 
   it('should return an error msg if the query has loaded but does not return any data', () => {
-    mockUsePartsQuery.mockReturnValueOnce(mockReturnValue);
+    mockedUsePartsQuery.mockReturnValueOnce(mockReturnValue);
 
     const { getByText } = renderWithRouter(<MacroProductContainer />);
 
@@ -59,7 +59,7 @@ describe('MacroProductContainer logic test ', () => {
   });
 
   it('should return an error msg if the query has loaded, returns data but without any part', () => {
-    mockUsePartsQuery.mockReturnValueOnce({ ...mockReturnValue, data: {} });
+    mockedUsePartsQuery.mockReturnValueOnce({ ...mockReturnValue, data: {} });
 
     const { getByText } = renderWithRouter(<MacroProductContainer />);
 
@@ -67,7 +67,7 @@ describe('MacroProductContainer logic test ', () => {
   });
 
   it('should render a MacroProduct even if it is without thumb', () => {
-    mockUsePartsQuery.mockReturnValueOnce({
+    mockedUsePartsQuery.mockReturnValueOnce({
       ...mockReturnValue,
       data: {
         part: {
@@ -92,7 +92,7 @@ describe('MacroProductContainer logic test ', () => {
           class="macro-product-container"
         >
           <div
-            class="sc-dlnjPT bEyrhE macro-product"
+            class="sc-dlnjPT bYfwWj macro-product"
           >
             <div
               class="macro-product-name-downloads"
@@ -142,7 +142,7 @@ describe('MacroProductContainer logic test ', () => {
   });
 
   it('should render MacroProduct with right props and subparts table too', () => {
-    mockUsePartsQuery.mockReturnValueOnce({
+    mockedUsePartsQuery.mockReturnValueOnce({
       ...mockReturnValue,
       data: {
         part: {
@@ -175,7 +175,7 @@ describe('MacroProductContainer logic test ', () => {
           class="macro-product-container"
         >
           <div
-            class="sc-dlnjPT bEyrhE macro-product"
+            class="sc-dlnjPT bYfwWj macro-product"
           >
             <div
               class="macro-product-name-downloads"
@@ -305,7 +305,7 @@ describe('MacroProductContainer logic test ', () => {
   });
 
   it('should return no table if not subparts are retrieved', () => {
-    mockUsePartsQuery.mockReturnValueOnce({
+    mockedUsePartsQuery.mockReturnValueOnce({
       ...mockReturnValue,
       data: {
         part: {
@@ -334,7 +334,7 @@ describe('MacroProductContainer logic test ', () => {
           class="macro-product-container"
         >
           <div
-            class="sc-dlnjPT bEyrhE macro-product"
+            class="sc-dlnjPT bYfwWj macro-product"
           >
             <div
               class="macro-product-name-downloads"

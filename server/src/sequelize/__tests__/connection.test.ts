@@ -12,7 +12,7 @@ interface ISequelizeArgsOptions {
 jest.mock('sequelize', () => ({
   Sequelize: jest
     .fn()
-    .mockImplementation(
+    .mockedImplementation(
       (
         dbName: string,
         dbUsername: string,
@@ -50,11 +50,11 @@ describe('connection module', () => {
   });
 
   it('should show msg on console', () => {
-    const mockConsoleLog = jest.fn();
-    global.console = { ...global.console, log: mockConsoleLog };
+    const mockedConsoleLog = jest.fn();
+    global.console = { ...global.console, log: mockedConsoleLog };
 
     logging('FAKE_MSG');
 
-    expect(mockConsoleLog).toHaveBeenCalledWith(['FAKE_MSG']);
+    expect(mockedConsoleLog).toHaveBeenCalledWith(['FAKE_MSG']);
   });
 });

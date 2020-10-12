@@ -25,14 +25,14 @@ jest.mock('../macro-product', () => ({
   macroProductResolvers: 'FAKE_MACRO_PRODUCT_RESOLVERS',
 }));
 
-const mockTypeDefs = ['FAKE_PART_TYPE_DEFS', 'FAKE_MACRO_PRODUCT_TYPE_DEFS'];
+const mockedTypeDefs = ['FAKE_PART_TYPE_DEFS', 'FAKE_MACRO_PRODUCT_TYPE_DEFS'];
 const mockResolvers = ['FAKE_PART_RESOLVERS', 'FAKE_MACRO_PRODUCT_RESOLVERS'];
 
 describe('server', () => {
   it('should create a lambda server with the right args', () => {
-    const MockApolloServerLambda = mocked(ApolloServerLambda, true);
+    const mockedApolloServerLambda = mocked(ApolloServerLambda, true);
     const expected = {
-      typeDefs: mockTypeDefs,
+      typeDefs: mockedTypeDefs,
       resolvers: mockResolvers,
       introspection: true,
       playground: true,
@@ -42,12 +42,12 @@ describe('server', () => {
 
     createLambdaServer();
 
-    expect(MockApolloServerLambda).toHaveBeenCalledWith(expected);
+    expect(mockedApolloServerLambda).toHaveBeenCalledWith(expected);
   });
   it('should create a local server with the right args', () => {
-    const MockApolloServer = mocked(ApolloServer, true);
+    const mockedApolloServer = mocked(ApolloServer, true);
     const expected = {
-      typeDefs: mockTypeDefs,
+      typeDefs: mockedTypeDefs,
       resolvers: mockResolvers,
       introspection: true,
       playground: true,
@@ -57,6 +57,6 @@ describe('server', () => {
 
     createLocalServer();
 
-    expect(MockApolloServer).toHaveBeenCalledWith(expected);
+    expect(mockedApolloServer).toHaveBeenCalledWith(expected);
   });
 });

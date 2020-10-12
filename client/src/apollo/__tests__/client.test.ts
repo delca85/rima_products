@@ -8,13 +8,13 @@ jest.mock('@apollo/client', () => ({
 }));
 
 jest.mock('../../configuration/environmentConfiguration');
-const mockGetEnvironmentConfiguration = getEnvironmentConfiguration as jest.MockedFunction<
+const mockedGetEnvironmentConfiguration = getEnvironmentConfiguration as jest.MockedFunction<
   typeof getEnvironmentConfiguration
 >;
 
 describe('apollo client creation', () => {
   it('should create a compliant apollo client', () => {
-    mockGetEnvironmentConfiguration.mockReturnValueOnce({
+    mockedGetEnvironmentConfiguration.mockReturnValueOnce({
       graphql: 'FAKE_GRAPHQL',
     });
 
