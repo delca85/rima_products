@@ -12,7 +12,7 @@ interface ISequelizeArgsOptions {
 jest.mock('sequelize', () => ({
   Sequelize: jest
     .fn()
-    .mockedImplementation(
+    .mockImplementation(
       (
         dbName: string,
         dbUsername: string,
