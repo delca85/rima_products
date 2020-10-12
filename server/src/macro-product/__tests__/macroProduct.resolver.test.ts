@@ -25,7 +25,7 @@ describe('macroProduct resolvers logic', () => {
   });
 
   afterEach(() => {
-    mockedCreateContext.mockedClear();
+    mockedCreateContext.mockClear();
   });
   it('should return a part by its id', async () => {
     const macroProductQuery =

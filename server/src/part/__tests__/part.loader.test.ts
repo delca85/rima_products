@@ -1,4 +1,4 @@
-import { mockedParts, mockSubparts } from './part.mocks';
+import { mockedParts, mockedSubparts } from './part.mocks';
 import { batchParts } from '../part.loader';
 import { default as PartModel } from '../part.model';
 
@@ -21,7 +21,7 @@ describe('part loader', () => {
         thumb: 'macro_part_thumb',
         manual: 'macro_part_manual',
         drawings: 'macro_part_drawings',
-        subparts: mockSubparts,
+        subparts: mockedSubparts,
       },
     ];
 

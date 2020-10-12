@@ -1,6 +1,6 @@
 import { GraphQLResolveInfo } from 'graphql';
 import context from '../../context';
-import { mockedParts, mockSubparts } from './part.mocks';
+import { mockedParts, mockedSubparts } from './part.mocks';
 import { default as partResolvers } from '../part.resolvers';
 import PartModel from '../part.model';
 import { MacroProductModel, MacroProductModelStatic } from '../../macro-product';
@@ -59,7 +59,7 @@ describe('part resolvers logic', () => {
   it('should return subparts for a part when present', async () => {
     const subpartsQuery = partResolvers.Part?.subparts || (() => Promise.resolve());
     const parentPart = mockedParts[1];
-    const expectedSubparts = mockSubparts.map((mockSubpart) => ({
+    const expectedSubparts = mockedSubparts.map((mockSubpart) => ({
       id: mockSubpart.id,
       name: mockSubpart.name,
       thumb: mockSubpart.thumb,

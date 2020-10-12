@@ -1,6 +1,6 @@
 import { MacroProduct } from '../../types/graphql.generated';
 
-export const mockMacroProducts: MacroProduct[] = [
+export const mockedMacroProducts: MacroProduct[] = [
   {
     id: 1,
     childPartNo: 2,
