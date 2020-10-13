@@ -12,7 +12,7 @@ exports[`Storyshots DownloadItems Download Items With Manual And Drawings 1`] = 
     target="_blank"
   >
     <div
-      className="__react_component_tooltip t03cc01e5-f10c-43f7-aeeb-33907ab631c4 place-top type-dark"
+      className="__react_component_tooltip t48ee21f7-3c59-4557-bbc7-7114ac159de8 place-top type-dark"
       data-id="tooltip"
       id="manual-tip"
     >
@@ -20,19 +20,19 @@ exports[`Storyshots DownloadItems Download Items With Manual And Drawings 1`] = 
         dangerouslySetInnerHTML={
           Object {
             "__html": "
-  	.t03cc01e5-f10c-43f7-aeeb-33907ab631c4 {
+  	.t48ee21f7-3c59-4557-bbc7-7114ac159de8 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t03cc01e5-f10c-43f7-aeeb-33907ab631c4.place-top {
+  	.t48ee21f7-3c59-4557-bbc7-7114ac159de8.place-top {
         margin-top: -10px;
     }
-    .t03cc01e5-f10c-43f7-aeeb-33907ab631c4.place-top::before {
+    .t48ee21f7-3c59-4557-bbc7-7114ac159de8.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t03cc01e5-f10c-43f7-aeeb-33907ab631c4.place-top::after {
+    .t48ee21f7-3c59-4557-bbc7-7114ac159de8.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -43,13 +43,13 @@ exports[`Storyshots DownloadItems Download Items With Manual And Drawings 1`] = 
         border-top-width: 6px;
     }
 
-    .t03cc01e5-f10c-43f7-aeeb-33907ab631c4.place-bottom {
+    .t48ee21f7-3c59-4557-bbc7-7114ac159de8.place-bottom {
         margin-top: 10px;
     }
-    .t03cc01e5-f10c-43f7-aeeb-33907ab631c4.place-bottom::before {
+    .t48ee21f7-3c59-4557-bbc7-7114ac159de8.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t03cc01e5-f10c-43f7-aeeb-33907ab631c4.place-bottom::after {
+    .t48ee21f7-3c59-4557-bbc7-7114ac159de8.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -60,13 +60,13 @@ exports[`Storyshots DownloadItems Download Items With Manual And Drawings 1`] = 
         border-bottom-width: 6px;
     }
 
-    .t03cc01e5-f10c-43f7-aeeb-33907ab631c4.place-left {
+    .t48ee21f7-3c59-4557-bbc7-7114ac159de8.place-left {
         margin-left: -10px;
     }
-    .t03cc01e5-f10c-43f7-aeeb-33907ab631c4.place-left::before {
+    .t48ee21f7-3c59-4557-bbc7-7114ac159de8.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t03cc01e5-f10c-43f7-aeeb-33907ab631c4.place-left::after {
+    .t48ee21f7-3c59-4557-bbc7-7114ac159de8.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -77,13 +77,13 @@ exports[`Storyshots DownloadItems Download Items With Manual And Drawings 1`] = 
         border-left-width: 6px;
     }
 
-    .t03cc01e5-f10c-43f7-aeeb-33907ab631c4.place-right {
+    .t48ee21f7-3c59-4557-bbc7-7114ac159de8.place-right {
         margin-left: 10px;
     }
-    .t03cc01e5-f10c-43f7-aeeb-33907ab631c4.place-right::before {
+    .t48ee21f7-3c59-4557-bbc7-7114ac159de8.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t03cc01e5-f10c-43f7-aeeb-33907ab631c4.place-right::after {
+    .t48ee21f7-3c59-4557-bbc7-7114ac159de8.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -114,7 +114,7 @@ exports[`Storyshots DownloadItems Download Items With Manual And Drawings 1`] = 
     target="_blank"
   >
     <div
-      className="__react_component_tooltip tf54ed83e-b828-418e-af81-f1bc5bcc6d8c place-top type-dark"
+      className="__react_component_tooltip t6c0d2e0f-32c5-45ab-a10b-1d3ebf72bb02 place-top type-dark"
       data-id="tooltip"
       id="drawings-tip"
     >
@@ -122,19 +122,19 @@ exports[`Storyshots DownloadItems Download Items With Manual And Drawings 1`] = 
         dangerouslySetInnerHTML={
           Object {
             "__html": "
-  	.tf54ed83e-b828-418e-af81-f1bc5bcc6d8c {
+  	.t6c0d2e0f-32c5-45ab-a10b-1d3ebf72bb02 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.tf54ed83e-b828-418e-af81-f1bc5bcc6d8c.place-top {
+  	.t6c0d2e0f-32c5-45ab-a10b-1d3ebf72bb02.place-top {
         margin-top: -10px;
     }
-    .tf54ed83e-b828-418e-af81-f1bc5bcc6d8c.place-top::before {
+    .t6c0d2e0f-32c5-45ab-a10b-1d3ebf72bb02.place-top::before {
         border-top: 8px solid transparent;
     }
-    .tf54ed83e-b828-418e-af81-f1bc5bcc6d8c.place-top::after {
+    .t6c0d2e0f-32c5-45ab-a10b-1d3ebf72bb02.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -145,13 +145,13 @@ exports[`Storyshots DownloadItems Download Items With Manual And Drawings 1`] = 
         border-top-width: 6px;
     }
 
-    .tf54ed83e-b828-418e-af81-f1bc5bcc6d8c.place-bottom {
+    .t6c0d2e0f-32c5-45ab-a10b-1d3ebf72bb02.place-bottom {
         margin-top: 10px;
     }
-    .tf54ed83e-b828-418e-af81-f1bc5bcc6d8c.place-bottom::before {
+    .t6c0d2e0f-32c5-45ab-a10b-1d3ebf72bb02.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .tf54ed83e-b828-418e-af81-f1bc5bcc6d8c.place-bottom::after {
+    .t6c0d2e0f-32c5-45ab-a10b-1d3ebf72bb02.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -162,13 +162,13 @@ exports[`Storyshots DownloadItems Download Items With Manual And Drawings 1`] = 
         border-bottom-width: 6px;
     }
 
-    .tf54ed83e-b828-418e-af81-f1bc5bcc6d8c.place-left {
+    .t6c0d2e0f-32c5-45ab-a10b-1d3ebf72bb02.place-left {
         margin-left: -10px;
     }
-    .tf54ed83e-b828-418e-af81-f1bc5bcc6d8c.place-left::before {
+    .t6c0d2e0f-32c5-45ab-a10b-1d3ebf72bb02.place-left::before {
         border-left: 8px solid transparent;
     }
-    .tf54ed83e-b828-418e-af81-f1bc5bcc6d8c.place-left::after {
+    .t6c0d2e0f-32c5-45ab-a10b-1d3ebf72bb02.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -179,13 +179,13 @@ exports[`Storyshots DownloadItems Download Items With Manual And Drawings 1`] = 
         border-left-width: 6px;
     }
 
-    .tf54ed83e-b828-418e-af81-f1bc5bcc6d8c.place-right {
+    .t6c0d2e0f-32c5-45ab-a10b-1d3ebf72bb02.place-right {
         margin-left: 10px;
     }
-    .tf54ed83e-b828-418e-af81-f1bc5bcc6d8c.place-right::before {
+    .t6c0d2e0f-32c5-45ab-a10b-1d3ebf72bb02.place-right::before {
         border-right: 8px solid transparent;
     }
-    .tf54ed83e-b828-418e-af81-f1bc5bcc6d8c.place-right::after {
+    .t6c0d2e0f-32c5-45ab-a10b-1d3ebf72bb02.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -223,7 +223,7 @@ exports[`Storyshots DownloadItems Download Items With Manual And No Drawings 1`]
     target="_blank"
   >
     <div
-      className="__react_component_tooltip t8d5bd44a-8792-46e2-86e0-00c183774856 place-top type-dark"
+      className="__react_component_tooltip t76231f1e-6331-4362-85dd-8e8667130119 place-top type-dark"
       data-id="tooltip"
       id="manual-tip"
     >
@@ -231,19 +231,19 @@ exports[`Storyshots DownloadItems Download Items With Manual And No Drawings 1`]
         dangerouslySetInnerHTML={
           Object {
             "__html": "
-  	.t8d5bd44a-8792-46e2-86e0-00c183774856 {
+  	.t76231f1e-6331-4362-85dd-8e8667130119 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t8d5bd44a-8792-46e2-86e0-00c183774856.place-top {
+  	.t76231f1e-6331-4362-85dd-8e8667130119.place-top {
         margin-top: -10px;
     }
-    .t8d5bd44a-8792-46e2-86e0-00c183774856.place-top::before {
+    .t76231f1e-6331-4362-85dd-8e8667130119.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t8d5bd44a-8792-46e2-86e0-00c183774856.place-top::after {
+    .t76231f1e-6331-4362-85dd-8e8667130119.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -254,13 +254,13 @@ exports[`Storyshots DownloadItems Download Items With Manual And No Drawings 1`]
         border-top-width: 6px;
     }
 
-    .t8d5bd44a-8792-46e2-86e0-00c183774856.place-bottom {
+    .t76231f1e-6331-4362-85dd-8e8667130119.place-bottom {
         margin-top: 10px;
     }
-    .t8d5bd44a-8792-46e2-86e0-00c183774856.place-bottom::before {
+    .t76231f1e-6331-4362-85dd-8e8667130119.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t8d5bd44a-8792-46e2-86e0-00c183774856.place-bottom::after {
+    .t76231f1e-6331-4362-85dd-8e8667130119.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -271,13 +271,13 @@ exports[`Storyshots DownloadItems Download Items With Manual And No Drawings 1`]
         border-bottom-width: 6px;
     }
 
-    .t8d5bd44a-8792-46e2-86e0-00c183774856.place-left {
+    .t76231f1e-6331-4362-85dd-8e8667130119.place-left {
         margin-left: -10px;
     }
-    .t8d5bd44a-8792-46e2-86e0-00c183774856.place-left::before {
+    .t76231f1e-6331-4362-85dd-8e8667130119.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t8d5bd44a-8792-46e2-86e0-00c183774856.place-left::after {
+    .t76231f1e-6331-4362-85dd-8e8667130119.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -288,13 +288,13 @@ exports[`Storyshots DownloadItems Download Items With Manual And No Drawings 1`]
         border-left-width: 6px;
     }
 
-    .t8d5bd44a-8792-46e2-86e0-00c183774856.place-right {
+    .t76231f1e-6331-4362-85dd-8e8667130119.place-right {
         margin-left: 10px;
     }
-    .t8d5bd44a-8792-46e2-86e0-00c183774856.place-right::before {
+    .t76231f1e-6331-4362-85dd-8e8667130119.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t8d5bd44a-8792-46e2-86e0-00c183774856.place-right::after {
+    .t76231f1e-6331-4362-85dd-8e8667130119.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -334,7 +334,7 @@ exports[`Storyshots DownloadItems Download Items With No Manual And Drawings 1`]
     target="_blank"
   >
     <div
-      className="__react_component_tooltip t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3 place-top type-dark"
+      className="__react_component_tooltip te604fefd-586e-4bc7-b9cc-d82b3c1dfa7e place-top type-dark"
       data-id="tooltip"
       id="drawings-tip"
     >
@@ -342,19 +342,19 @@ exports[`Storyshots DownloadItems Download Items With No Manual And Drawings 1`]
         dangerouslySetInnerHTML={
           Object {
             "__html": "
-  	.t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3 {
+  	.te604fefd-586e-4bc7-b9cc-d82b3c1dfa7e {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3.place-top {
+  	.te604fefd-586e-4bc7-b9cc-d82b3c1dfa7e.place-top {
         margin-top: -10px;
     }
-    .t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3.place-top::before {
+    .te604fefd-586e-4bc7-b9cc-d82b3c1dfa7e.place-top::before {
         border-top: 8px solid transparent;
     }
-    .t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3.place-top::after {
+    .te604fefd-586e-4bc7-b9cc-d82b3c1dfa7e.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -365,13 +365,13 @@ exports[`Storyshots DownloadItems Download Items With No Manual And Drawings 1`]
         border-top-width: 6px;
     }
 
-    .t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3.place-bottom {
+    .te604fefd-586e-4bc7-b9cc-d82b3c1dfa7e.place-bottom {
         margin-top: 10px;
     }
-    .t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3.place-bottom::before {
+    .te604fefd-586e-4bc7-b9cc-d82b3c1dfa7e.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3.place-bottom::after {
+    .te604fefd-586e-4bc7-b9cc-d82b3c1dfa7e.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -382,13 +382,13 @@ exports[`Storyshots DownloadItems Download Items With No Manual And Drawings 1`]
         border-bottom-width: 6px;
     }
 
-    .t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3.place-left {
+    .te604fefd-586e-4bc7-b9cc-d82b3c1dfa7e.place-left {
         margin-left: -10px;
     }
-    .t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3.place-left::before {
+    .te604fefd-586e-4bc7-b9cc-d82b3c1dfa7e.place-left::before {
         border-left: 8px solid transparent;
     }
-    .t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3.place-left::after {
+    .te604fefd-586e-4bc7-b9cc-d82b3c1dfa7e.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -399,13 +399,13 @@ exports[`Storyshots DownloadItems Download Items With No Manual And Drawings 1`]
         border-left-width: 6px;
     }
 
-    .t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3.place-right {
+    .te604fefd-586e-4bc7-b9cc-d82b3c1dfa7e.place-right {
         margin-left: 10px;
     }
-    .t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3.place-right::before {
+    .te604fefd-586e-4bc7-b9cc-d82b3c1dfa7e.place-right::before {
         border-right: 8px solid transparent;
     }
-    .t66e61519-b3aa-4ab2-98a6-7a2f686e2bc3.place-right::after {
+    .te604fefd-586e-4bc7-b9cc-d82b3c1dfa7e.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;

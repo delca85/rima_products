@@ -1,23 +1,18 @@
 import { default as React } from 'react';
-import { Router } from 'react-router-dom';
-import renderWithRouter from '../dev-tools/testUtils';
+import { BrowserRouter as Router, useHistory } from 'react-router-dom';
+import { render } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
 import Routes from '../Routes';
 import analytics from '../analytics/analytics';
-import { render } from '@testing-library/react';
-import { createMemoryHistory } from 'history';
-import { createBrowserHistory } from 'history';
-import userEvent from '@testing-library/user-event';
+import { act } from 'react-dom/test-utils';
+
+jest.mock('../analytics/analytics');
 
 describe('Routes component', () => {
-  const history = createBrowserHistory();
-
   afterEach(() => jest.clearAllMocks());
   it('should render all the desired paths', () => {
-    jest.spyOn(analytics, 'init').mockReturnValueOnce();
-    jest.spyOn(analytics, 'sendPageview').mockReturnValueOnce();
-
     const { container } = render(
-      <Router history={history}>
+      <Router>
         <Routes />
       </Router>,
     );
@@ -38,12 +33,12 @@ describe('Routes component', () => {
   });
 
   it('should call useGoogleAnalytics hook on render', () => {
-    const mockedInit = jest.spyOn(analytics, 'init');
-    mockedInit.mockReturnValueOnce();
-    jest.spyOn(analytics, 'sendPageview').mockReturnValueOnce();
+    const mockedInit = analytics.init as jest.MockedFunction<typeof analytics.init>;
+    // mockedInit.mockReturnValueOnce();
+    // jest.spyOn(analytics, 'sendPageview').mockReturnValueOnce();
 
     render(
-      <Router history={history}>
+      <Router>
         <Routes />
       </Router>,
     );
@@ -51,23 +46,32 @@ describe('Routes component', () => {
     expect(mockedInit).toHaveBeenCalledTimes(1);
   });
 
-  // it('should set new page view when location changes ', () => {
-  //   const mockedInit = jest.spyOn(analytics, 'init');
-  //   mockedInit.mockReturnValueOnce();
-  //   const mockedSendPageView = jest.spyOn(analytics, 'sendPageview');
-  //   mockedSendPageView.mockReturnValueOnce();
+  it('should set new page view when location changes ', () => {
+    const mockedSendPageview = analytics.sendPageview as jest.MockedFunction<
+      typeof analytics.sendPageview
+    >;
+    mockedSendPageview.mockImplementation();
 
-  //   const { getByText } = render(
-  //     <Router history={history}>
-  //       <Routes />
-  //       <button onClick={() => history.push('NEW_LOCATION')}>Click</button>
-  //     </Router>,
-  //   );
-  //   mockedSendPageView.mockClear();
-  //   mockedSendPageView.mockReturnValueOnce();
+    const MyComponent = () => {
+      const history = useHistory();
+      return (
+        <div data-testid="change-history" onClick={() => history.push('/NEW_LOCATION')}>
+          <Routes />
+        </div>
+      );
+    };
 
-  //   userEvent.click(getByText('Click'));
+    const { getByTestId } = render(
+      <Router>
+        <MyComponent />
+      </Router>,
+    );
 
-  //   expect(mockedSendPageView).toHaveBeenCalledTimes(1);
-  // });
+    mockedSendPageview.mockClear();
+
+    act(() => userEvent.click(getByTestId('change-history')));
+
+    expect(mockedSendPageview).toHaveBeenCalledTimes(1);
+    expect(mockedSendPageview).toHaveBeenCalledWith('/NEW_LOCATION');
+  });
 });

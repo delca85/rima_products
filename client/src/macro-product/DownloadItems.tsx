@@ -1,21 +1,39 @@
 import { default as React } from 'react';
+import styled from 'styled-components';
 import ReactTooltip from 'react-tooltip';
 import { IRimaComponentProps } from '../types/component.types';
 import manualSrc from '../assets/manual.svg';
 import drawingsSrc from '../assets/drawings.svg';
-import styled from 'styled-components';
+import analytics from '../analytics/analytics';
 
 export interface IDownloadItemsProps extends IRimaComponentProps {
   manual?: string;
   drawings?: string;
 }
 
-const DownloadItemsRaw = ({ className, manual = '', drawings = '' }: IDownloadItemsProps) => {
-  // const onDownloadManual = useCallback
+const DownloadItemsRaw = ({ className, manual, drawings }: IDownloadItemsProps) => {
+  const onDownloadManual = () =>
+    analytics.sendEvent({
+      category: 'user',
+      action: 'download manual',
+      label: manual,
+    });
+  const onDownloadDrawings = () =>
+    analytics.sendEvent({
+      category: 'user',
+      action: 'download drawings',
+      label: drawings,
+    });
   return (
     <div className={className}>
       {manual && (
-        <a data-tip data-for="manual-tip" href={manual} rel="noopener noreferrer" target="_blank">
+        <a
+          data-tip
+          data-for="manual-tip"
+          href={manual}
+          rel="noopener noreferrer"
+          target="_blank"
+          onClick={onDownloadManual}>
           <ReactTooltip id="manual-tip" type="info">
             <span>Download Manual</span>
           </ReactTooltip>
@@ -28,7 +46,8 @@ const DownloadItemsRaw = ({ className, manual = '', drawings = '' }: IDownloadIt
           data-for="drawings-tip"
           href={drawings}
           rel="noopener noreferrer"
-          target="_blank">
+          target="_blank"
+          onClick={onDownloadDrawings}>
           <ReactTooltip id="drawings-tip" type="info">
             <span>Download Drawings</span>
           </ReactTooltip>
